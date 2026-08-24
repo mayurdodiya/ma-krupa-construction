@@ -156,7 +156,7 @@ export default function Contact() {
                         </div>
                         <div>
                           <label className="field-label" htmlFor="c-phone">Phone *</label>
-                          <input id="c-phone" type="tel" value={form.phone} onChange={set('phone')} className="field" placeholder="+91 98250 00000" required />
+                          <input id="c-phone" type="tel" value={form.phone} onChange={set('phone')} className="field" placeholder="+91 83473 37661" required />
                         </div>
                         <div>
                           <label className="field-label" htmlFor="c-email">Email</label>

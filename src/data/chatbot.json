@@ -127,7 +127,7 @@
     {
       "id": "contact",
       "keywords": ["contact", "phone", "number", "email", "address", "office", "location", "where are you", "reach"],
-      "response": "Call us on +91 98250 44172, email sales@makrupaconstruction.com, or visit Ma Krupa House, 4th Floor, Ring Road, Udhna Darwaja, Surat 395002. We are open Monday to Saturday, 9:30 AM to 7:00 PM.",
+      "response": "Call us on +91 83473 37661, email sales@makrupaconstruction.com, or visit Ma Krupa House, 4th Floor, Ring Road, Udhna Darwaja, Surat 395002. We are open Monday to Saturday, 9:30 AM to 7:00 PM.",
       "chips": ["Open contact page", "Book a meeting"],
       "action": { "label": "Open contact page", "to": "/contact" }
     },
@@ -141,7 +141,7 @@
     {
       "id": "human",
       "keywords": ["human", "agent", "talk to someone", "real person", "sales person", "call me", "executive"],
-      "response": "Of course. Call +91 98250 44172 during office hours and you will reach our sales desk directly, or message us on WhatsApp any time. You can also book a phone callback at a slot that suits you and we will call you.",
+      "response": "Of course. Call +91 83473 37661 during office hours and you will reach our sales desk directly, or message us on WhatsApp any time. You can also book a phone callback at a slot that suits you and we will call you.",
       "chips": ["Book a callback", "Open contact page"],
       "action": { "label": "Book a callback", "to": "/book-meeting" }
     }

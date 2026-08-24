@@ -323,7 +323,7 @@ export default function BookMeeting() {
                         </div>
                         <div>
                           <label className="field-label" htmlFor="bm-phone">Phone / WhatsApp *</label>
-                          <input id="bm-phone" type="tel" value={form.phone} onChange={(e) => set('phone', e.target.value)} className="field" placeholder="+91 98250 00000" required />
+                          <input id="bm-phone" type="tel" value={form.phone} onChange={(e) => set('phone', e.target.value)} className="field" placeholder="+91 83473 37661" required />
                         </div>
                         <div className="sm:col-span-2">
                           <label className="field-label" htmlFor="bm-email">Email</label>
