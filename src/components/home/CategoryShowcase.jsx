@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { ArrowUpRight, Building2, Factory, Home, Trees } from 'lucide-react';
 import { categories, countByCategory } from '@/lib/site';
 import { Reveal, Tilt3D } from '@/components/common/Reveal';
@@ -16,7 +17,7 @@ const ICONS = { Building2, Factory, Home, Trees };
  * depths, so they separate as it turns instead of sliding as one flat image.
  */
 export function CategoryShowcase() {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const [active, setActive] = useState(null);
 
   return (

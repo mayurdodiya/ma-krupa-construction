@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { motion, useMotionValue, useSpring, useReducedMotion } from 'framer-motion';
+import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 
 /**
  * Ma Krupa cursor — a surveyor's reticle.
@@ -24,7 +25,7 @@ import { motion, useMotionValue, useSpring, useReducedMotion } from 'framer-moti
 const RING = 46; // px, resting diameter
 
 export function Cursor() {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const [enabled, setEnabled] = useState(false);
   const [variant, setVariant] = useState('default'); // default | link | view | text
   const [label, setLabel] = useState('');

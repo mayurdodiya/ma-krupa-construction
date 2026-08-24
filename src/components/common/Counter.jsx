@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useInView, useReducedMotion } from 'framer-motion';
+import { useInView } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 
 /** Counts up once when scrolled into view. Eases out so the last digits settle. */
 export function Counter({ value, suffix = '', duration = 1800, className = '' }) {
@@ -7,7 +8,7 @@ export function Counter({ value, suffix = '', duration = 1800, className = '' })
   // Trigger as soon as the number is meaningfully on screen. At 0.5 a stat sitting
   // at the fold could stay visible on '0' without ever counting.
   const inView = useInView(ref, { once: true, amount: 0.2 });
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const [n, setN] = useState(0);
 
   useEffect(() => {

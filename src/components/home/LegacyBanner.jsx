@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, useReducedMotion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { ArrowRight } from 'lucide-react';
 import { site, about } from '@/lib/site';
 import { Reveal, WordReveal } from '@/components/common/Reveal';
@@ -15,7 +16,7 @@ import { Reveal, WordReveal } from '@/components/common/Reveal';
  */
 export function LegacyBanner() {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
   const rawY = useTransform(scrollYProgress, [0, 1], ['-12%', '12%']);

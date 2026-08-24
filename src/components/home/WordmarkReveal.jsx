@@ -1,6 +1,7 @@
 import { useRef } from 'react';
-import { motion, useReducedMotion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { site } from '@/lib/site';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 
 /**
  * The brand moment: the company name rendered at display scale with a real
@@ -16,7 +17,7 @@ import { site } from '@/lib/site';
  */
 export function WordmarkReveal() {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
   const rawSize = useTransform(scrollYProgress, [0, 1], [140, 108]);

@@ -1,5 +1,6 @@
 import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { MotionConfig } from 'framer-motion';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
@@ -37,33 +38,34 @@ function RouteFallback() {
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-1">
-            <Suspense fallback={<RouteFallback />}>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/projects/:id" element={<ProjectDetail />} />
-                <Route path="/products" element={<Products />} />
-                <Route path="/calculators" element={<Calculators />} />
-                <Route path="/book-meeting" element={<BookMeeting />} />
-                <Route path="/rera" element={<Rera />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </Suspense>
-          </main>
-          <Footer />
-          <FloatingActions />
-          {/* Self-disables on touch/coarse pointers and for reduced motion. */}
-          <Cursor />
-        </div>
-      </BrowserRouter>
-    </ThemeProvider>
+    <MotionConfig reducedMotion="never">
+      <ThemeProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <div className="flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1">
+              <Suspense fallback={<RouteFallback />}>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/projects" element={<Projects />} />
+                  <Route path="/projects/:id" element={<ProjectDetail />} />
+                  <Route path="/products" element={<Products />} />
+                  <Route path="/calculators" element={<Calculators />} />
+                  <Route path="/book-meeting" element={<BookMeeting />} />
+                  <Route path="/rera" element={<Rera />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </Suspense>
+            </main>
+            <Footer />
+            <FloatingActions />
+            <Cursor />
+          </div>
+        </BrowserRouter>
+      </ThemeProvider>
+    </MotionConfig>
   );
 }

@@ -1,8 +1,9 @@
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 
 /** Construction-progress meter. Fills on scroll-into-view. */
 export function ProgressBar({ value = 0, label = 'Construction progress', compact = false }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const pct = Math.max(0, Math.min(100, Number(value) || 0));
 
   return (

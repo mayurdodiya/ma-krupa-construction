@@ -1,4 +1,4 @@
-import { useReducedMotion } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { site } from '@/lib/site';
 
 /**
@@ -10,7 +10,7 @@ import { site } from '@/lib/site';
  * the list.
  */
 export function MarqueeStrip() {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const items = site.usp ?? [];
   if (!items.length) return null;
 

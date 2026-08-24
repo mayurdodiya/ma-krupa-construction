@@ -2,11 +2,11 @@ import { useRef } from 'react';
 import {
   motion,
   useMotionValue,
-  useReducedMotion,
   useScroll,
   useSpring,
   useTransform,
 } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 
 /**
  * Shared motion vocabulary.
@@ -23,7 +23,7 @@ const SOFT_SPRING = { stiffness: 90, damping: 24, mass: 0.6, restDelta: 0.001 };
 
 /** Scroll-triggered entrance used across every section. */
 export function Reveal({ children, delay = 0, y = 26, className = '', as = 'div' }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const MotionTag = motion[as] ?? motion.div;
 
   if (reduce) return <div className={className}>{children}</div>;
@@ -43,7 +43,7 @@ export function Reveal({ children, delay = 0, y = 26, className = '', as = 'div'
 
 /** Staggers direct children. Pair with <RevealItem>. */
 export function RevealGroup({ children, className = '', stagger = 0.09, delay = 0 }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   if (reduce) return <div className={className}>{children}</div>;
 
   return (
@@ -60,7 +60,7 @@ export function RevealGroup({ children, className = '', stagger = 0.09, delay = 
 }
 
 export function RevealItem({ children, className = '', y = 26 }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   if (reduce) return <div className={className}>{children}</div>;
 
   return (
@@ -78,7 +78,7 @@ export function RevealItem({ children, className = '', y = 26 }) {
 
 /** Card-style entrance: rises and settles out of a slight 3D tilt. */
 export function TiltIn({ children, className = '', delay = 0 }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   if (reduce) return <div className={className}>{children}</div>;
 
   return (
@@ -101,7 +101,7 @@ export function TiltIn({ children, className = '', delay = 0 }) {
  */
 export function Parallax({ children, speed = 60, className = '' }) {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
   const raw = useTransform(scrollYProgress, [0, 1], [speed, -speed]);
   const y = useSpring(raw, SOFT_SPRING);
@@ -121,7 +121,7 @@ export function Parallax({ children, speed = 60, className = '' }) {
  */
 export function ParallaxImage({ src, alt = '', speed = 90, zoom = 1.18, className = '' }) {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
   const rawY = useTransform(scrollYProgress, [0, 1], [`-${speed / 2}px`, `${speed / 2}px`]);
   const y = useSpring(rawY, SOFT_SPRING);
@@ -145,7 +145,7 @@ export function ParallaxImage({ src, alt = '', speed = 90, zoom = 1.18, classNam
  * headline moments — the extra weight only pays off where it is the focus.
  */
 export function WordReveal({ text, className = '', delay = 0, stagger = 0.07, inView = false }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const words = String(text).split(' ');
 
   if (reduce) return <span className={className}>{text}</span>;
@@ -162,9 +162,9 @@ export function WordReveal({ text, className = '', delay = 0, stagger = 0.07, in
       variants={{ hidden: {}, show: { transition: { staggerChildren: stagger, delayChildren: delay } } }}
     >
       {words.map((word, i) => (
-        <span key={`${word}-${i}`} className="inline-block overflow-hidden align-bottom">
+        <span key={`${word}-${i}`} className="inline-block overflow-hidden align-bottom pb-[0.08em] -mb-[0.08em]">
           <motion.span
-            className="inline-block"
+            className="inline-block leading-[1.08]"
             variants={{
               hidden: { y: '112%', opacity: 0 },
               show: { y: '0%', opacity: 1, transition: { duration: 1, ease: EASE } },
@@ -184,7 +184,7 @@ export function WordReveal({ text, className = '', delay = 0, stagger = 0.07, in
  * gold bar sweeps across. Used for images and pull-quotes.
  */
 export function MaskReveal({ children, className = '', delay = 0, direction = 'up' }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   if (reduce) return <div className={className}>{children}</div>;
 
   const from =
@@ -213,7 +213,7 @@ export function MaskReveal({ children, className = '', delay = 0, direction = 'u
  */
 export function Magnetic({ children, className = '', strength = 0.32 }) {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const mx = useMotionValue(0);
   const my = useMotionValue(0);
   const x = useSpring(mx, { stiffness: 260, damping: 18, mass: 0.5 });
@@ -253,7 +253,7 @@ export function Magnetic({ children, className = '', strength = 0.32 }) {
  */
 export function Tilt3D({ children, className = '', max = 9, scale = 1.02 }) {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const rx = useMotionValue(0);
   const ry = useMotionValue(0);
   const rotateX = useSpring(rx, { stiffness: 220, damping: 20 });

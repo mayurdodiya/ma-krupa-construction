@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { MapPin, ArrowUpRight } from 'lucide-react';
 import { StatusBadge } from '@/components/common/StatusBadge';
 import { getCategory } from '@/lib/site';
@@ -13,7 +14,7 @@ import { getCategory } from '@/lib/site';
  * small "View details" button.
  */
 export function ProjectCard({ project, index = 0 }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const category = getCategory(project.category);
   const isLive = project.status === 'ongoing';
 

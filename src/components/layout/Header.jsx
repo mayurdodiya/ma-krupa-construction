@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { Menu, X, Phone, ChevronDown, CalendarCheck, Mail, Search, ArrowRight, MapPin } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
+import { Menu, X, Phone, ChevronDown, CalendarCheck, Mail, Search, ArrowRight } from 'lucide-react';
 import { useLockBodyScroll } from '@/hooks/useLockBodyScroll';
 import { useScrollProgress } from '@/hooks/useScrollProgress';
 import { site, telLink, mailLink, categories, statuses, projects, products } from '@/lib/site';
@@ -271,7 +272,7 @@ function IconButton({ href, to, label, children, solid, onClick }) {
 
 export function Header() {
   const { pathname } = useLocation();
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -298,32 +299,6 @@ export function Header() {
   return (
     <>
       <header className="fixed inset-x-0 top-0 z-[100]">
-        {/* Utility strip — retracts on scroll to give the nav room. */}
-        <div
-          className={`hidden overflow-hidden bg-ink-950 text-white transition-all duration-500 lg:block ${
-            scrolled ? 'max-h-0 opacity-0' : 'max-h-12 opacity-100'
-          }`}
-        >
-          <div className="container-x flex h-10 items-center justify-between text-[11px] tracking-wide">
-            <div className="flex items-center gap-6 text-white/55">
-              <span className="inline-flex items-center gap-1.5">
-                <MapPin className="h-3 w-3 text-brand-400" />
-                {site.address.city}, {site.address.state}
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <Mail className="h-3 w-3 text-brand-400" />
-                {site.email}
-              </span>
-            </div>
-            <div className="flex items-center gap-6 text-white/55">
-              <span>{site.hours}</span>
-              <span className="font-semibold uppercase tracking-[0.16em] text-brand-300">
-                GujRERA Registered Promoter
-              </span>
-            </div>
-          </div>
-        </div>
-
         <motion.div
           className={`transition-all duration-500 ${
             solid ? 'bg-ink-50/95 shadow-soft backdrop-blur-xl' : 'bg-gradient-to-b from-ink-950/80 to-transparent'

@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, useReducedMotion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { ArrowRight, Layers, Ruler, HardHat, ShieldCheck } from 'lucide-react';
 import { Reveal } from '@/components/common/Reveal';
 import { site } from '@/lib/site';
@@ -31,7 +32,7 @@ const PHASES = [
 
 export function Tower3D() {
   const ref = useRef(null);
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start 0.85', 'end 0.35'] });
   const p = useSpring(scrollYProgress, { stiffness: 70, damping: 24, mass: 0.7 });

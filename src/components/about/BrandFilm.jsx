@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { motion, useInView, useReducedMotion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { Pause, Play, Volume2, VolumeX } from 'lucide-react';
 import { reels } from '@/lib/site';
 import { SectionHeading } from '@/components/common/SectionHeading';
@@ -15,7 +16,7 @@ import { RevealGroup, RevealItem } from '@/components/common/Reveal';
  * decline autoplay outright.
  */
 function ReelCard({ reel, index }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const wrapRef = useRef(null);
   const videoRef = useRef(null);
   const inView = useInView(wrapRef, { amount: 0.5, margin: '0px 0px -10% 0px' });

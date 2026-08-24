@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AnimatePresence, motion, useReducedMotion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { AnimatePresence, motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { useMotionPreference } from '@/hooks/useMotionPreference';
 import { Play, ArrowRight, X } from 'lucide-react';
 import { site, categories } from '@/lib/site';
 import { Magnetic, WordReveal } from '@/components/common/Reveal';
@@ -19,7 +20,7 @@ const SLIDE_MS = 6000;
  * real project stills. Both paths look deliberate; neither shows a black box.
  */
 function HeroBackdrop({ onVideoReady }) {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const [videoOk, setVideoOk] = useState(false);
   const [videoExists, setVideoExists] = useState(false);
   const [index, setIndex] = useState(0);
@@ -109,7 +110,7 @@ function HeroBackdrop({ onVideoReady }) {
 
 /** Slow drifting gold motes — barely visible, but they keep the plate alive. */
 function GoldDust() {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   if (reduce) return null;
 
   const motes = Array.from({ length: 18 }, (_, i) => ({
@@ -217,7 +218,7 @@ function ShowreelModal({ open, onClose, hasVideo }) {
 }
 
 export function Hero() {
-  const reduce = useReducedMotion();
+  const reduce = useMotionPreference();
   const ref = useRef(null);
   const [reelOpen, setReelOpen] = useState(false);
   const [hasVideo, setHasVideo] = useState(false);
