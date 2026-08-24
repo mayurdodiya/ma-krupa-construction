@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "krupa-corporate-hub",
+    "name": "Ma Krupa Corporate Hub",
+    "category": "commercial",
+    "status": "ongoing",
+    "featured": true,
+    "tagline": "Grade-A offices and showrooms on Ring Road",
+    "description": "A 14-storey business address on Surat Ring Road combining double-height showrooms at grade with efficient corporate floor plates above. Designed for firms that want a signature address without a signature overhead.",
+    "location": "Ring Road, Surat",
+    "address": "Opp. Textile Market, Ring Road, Surat, Gujarat 395002",
+    "reraNumber": "PR/GJ/SURAT/SURAT CITY/SMC/RAA10829/010224",
+    "launchDate": "2024-02-01",
+    "possession": "Dec 2026",
+    "progress": 62,
+    "priceFrom": 8500000,
+    "priceLabel": "Starting Rs. 85 Lac",
+    "areaRange": "540 - 4,200 sq.ft.",
+    "configurations": [
+      "Showroom",
+      "Office Suite",
+      "Full Floor"
+    ],
+    "totalUnits": 186,
+    "landArea": "2.4 Acres",
+    "storeys": 14,
+    "expectedRentPerSqftMonth": 62,
+    "appreciationRate": 9.5,
+    "highlights": [
+      "Double-height showrooms with 22ft frontage",
+      "Six high-speed passenger lifts plus 2 service lifts",
+      "3-level basement parking for 480 cars",
+      "100% DG power backup on common areas"
+    ],
+    "amenities": [
+      "Grand Lobby",
+      "Conference Suite",
+      "Food Court",
+      "Visitor Lounge",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "EV Charging",
+      "Landscaped Plaza"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC framed, seismic zone III compliant"
+      },
+      {
+        "label": "Flooring",
+        "value": "Vitrified tiles in units, granite in common areas"
+      },
+      {
+        "label": "Elevation",
+        "value": "Structural glazing with ACP banding"
+      },
+      {
+        "label": "Power",
+        "value": "HT supply with 100% common-area DG backup"
+      },
+      {
+        "label": "Lifts",
+        "value": "8 nos. Schindler / Kone or equivalent"
+      },
+      {
+        "label": "Parking",
+        "value": "3 basement levels, mechanised entry-exit"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Surat Railway Station",
+        "distance": "3.2 km"
+      },
+      {
+        "name": "Surat International Airport",
+        "distance": "13 km"
+      },
+      {
+        "name": "Diamond Bourse",
+        "distance": "6 km"
+      },
+      {
+        "name": "VR Mall Surat",
+        "distance": "2.1 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-corporate-hub/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-corporate-hub/1.jpg",
+      "/images/projects/krupa-corporate-hub/2.jpg",
+      "/images/projects/krupa-corporate-hub/3.jpg"
+    ]
+  },
+  {
+    "id": "krupa-high-street",
+    "name": "Ma Krupa High Street",
+    "category": "commercial",
+    "status": "upcoming",
+    "featured": true,
+    "tagline": "Open-air retail high-street at Vesu",
+    "description": "An open-air retail promenade at Vesu planned around evening footfall: wide walkways, alfresco frontage, anchor stores at both ends and parking that actually works on a Saturday night.",
+    "location": "Vesu, Surat",
+    "address": "VIP Road, Vesu, Surat, Gujarat 395007",
+    "reraNumber": "Application in process",
+    "launchDate": "2026-11-15",
+    "possession": "Jun 2029",
+    "progress": 8,
+    "priceFrom": 6200000,
+    "priceLabel": "Pre-launch Rs. 62 Lac",
+    "areaRange": "380 - 2,600 sq.ft.",
+    "configurations": [
+      "Retail Shop",
+      "Restaurant Space",
+      "Anchor Store"
+    ],
+    "totalUnits": 142,
+    "landArea": "3.1 Acres",
+    "storeys": 4,
+    "expectedRentPerSqftMonth": 78,
+    "appreciationRate": 11,
+    "highlights": [
+      "Open-air promenade with 9m wide walkway",
+      "Alfresco dining decks on the first level",
+      "Two anchor stores of 12,000 sq.ft. each",
+      "Surface plus basement parking for 620 cars"
+    ],
+    "amenities": [
+      "Central Plaza",
+      "Musical Fountain",
+      "Kids Play Zone",
+      "Valet Parking",
+      "Amphitheatre",
+      "Wi-Fi Zone",
+      "Security",
+      "Power Backup"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC framed with steel canopy walkways"
+      },
+      {
+        "label": "Flooring",
+        "value": "Anti-skid granite in walkways"
+      },
+      {
+        "label": "Facade",
+        "value": "Glazed shopfronts with uniform signage band"
+      },
+      {
+        "label": "Power",
+        "value": "Dedicated feeder with DG backup"
+      },
+      {
+        "label": "Parking",
+        "value": "1 basement plus surface, 620 car capacity"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "VNSGU Campus",
+        "distance": "2.6 km"
+      },
+      {
+        "name": "Dumas Beach Road",
+        "distance": "8 km"
+      },
+      {
+        "name": "Surat Airport",
+        "distance": "9.4 km"
+      },
+      {
+        "name": "Vesu Residential Belt",
+        "distance": "0.5 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-high-street/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-high-street/1.jpg",
+      "/images/projects/krupa-high-street/2.jpg",
+      "/images/projects/krupa-high-street/3.jpg"
+    ]
+  },
+  {
+    "id": "krupa-trade-centre",
+    "name": "Ma Krupa Trade Centre",
+    "category": "commercial",
+    "status": "completed",
+    "featured": false,
+    "tagline": "Delivered textile trading hub, Udhna",
+    "description": "A 320-unit textile trading centre handed over in 2021 and fully occupied within eleven months. Still one of the best-maintained trading addresses in Udhna.",
+    "location": "Udhna, Surat",
+    "address": "Udhna Main Road, Surat, Gujarat 394210",
+    "reraNumber": "PR/GJ/SURAT/SURAT CITY/SMC/RAA07211/280918",
+    "launchDate": "2018-09-28",
+    "possession": "Delivered Mar 2021",
+    "progress": 100,
+    "priceFrom": 4800000,
+    "priceLabel": "Sold Out",
+    "areaRange": "310 - 1,450 sq.ft.",
+    "configurations": [
+      "Trading Office",
+      "Godown Unit"
+    ],
+    "totalUnits": 320,
+    "landArea": "1.8 Acres",
+    "storeys": 9,
+    "expectedRentPerSqftMonth": 55,
+    "appreciationRate": 8.2,
+    "highlights": [
+      "Fully occupied within 11 months of handover",
+      "Dedicated loading bays on the ground level",
+      "Resident facility-management team since 2021",
+      "Zero litigation, clear title on all units"
+    ],
+    "amenities": [
+      "Loading Bay",
+      "Cargo Lift",
+      "Cafeteria",
+      "24x7 Security",
+      "Fire Safety System",
+      "Power Backup"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC framed, seismic zone III compliant"
+      },
+      {
+        "label": "Flooring",
+        "value": "Vitrified tiles"
+      },
+      {
+        "label": "Lifts",
+        "value": "4 passenger plus 2 cargo"
+      },
+      {
+        "label": "Power",
+        "value": "Common-area DG backup"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Udhna Railway Station",
+        "distance": "1.4 km"
+      },
+      {
+        "name": "Ring Road Textile Market",
+        "distance": "4.8 km"
+      },
+      {
+        "name": "NH-48 Access",
+        "distance": "2.2 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-trade-centre/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-trade-centre/1.jpg",
+      "/images/projects/krupa-trade-centre/2.jpg"
+    ]
+  },
+  {
+    "id": "krupa-logistics-park",
+    "name": "Ma Krupa Logistics Park",
+    "category": "industrial",
+    "status": "ongoing",
+    "featured": true,
+    "tagline": "PEB warehousing on the Hazira corridor",
+    "description": "Pre-engineered warehousing units on the Hazira industrial corridor with 12m clear height, dock levellers and a road network sized for 40ft trailers.",
+    "location": "Hazira Road, Surat",
+    "address": "Hazira Industrial Corridor, Surat, Gujarat 394270",
+    "reraNumber": "PR/GJ/SURAT/SURAT RURAL/GJRERA/RAA09934/150723",
+    "launchDate": "2023-07-15",
+    "possession": "Sep 2026",
+    "progress": 74,
+    "priceFrom": 15500000,
+    "priceLabel": "Starting Rs. 1.55 Cr",
+    "areaRange": "6,000 - 42,000 sq.ft.",
+    "configurations": [
+      "Warehouse Unit",
+      "Industrial Shed",
+      "Built-to-Suit"
+    ],
+    "totalUnits": 46,
+    "landArea": "18 Acres",
+    "storeys": 1,
+    "expectedRentPerSqftMonth": 26,
+    "appreciationRate": 10.5,
+    "highlights": [
+      "12m clear height PEB structure",
+      "Hydraulic dock levellers on every unit",
+      "18m internal roads for 40ft trailer movement",
+      "HT power sanction assistance included"
+    ],
+    "amenities": [
+      "Dock Levellers",
+      "Truck Parking",
+      "Weighbridge",
+      "Driver Rest Area",
+      "Fire Hydrant System",
+      "STP",
+      "Security Cabin",
+      "Solar Ready Roof"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "Pre-engineered steel building, IS 800 compliant"
+      },
+      {
+        "label": "Roofing",
+        "value": "0.5mm colour-coated profile sheet with insulation"
+      },
+      {
+        "label": "Flooring",
+        "value": "VDF flooring, 5T per sqm load capacity"
+      },
+      {
+        "label": "Clear Height",
+        "value": "12 metres to eaves"
+      },
+      {
+        "label": "Power",
+        "value": "HT supply, dedicated transformer yard"
+      },
+      {
+        "label": "Fire",
+        "value": "Hydrant plus sprinkler, NOC obtained"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Hazira Port",
+        "distance": "11 km"
+      },
+      {
+        "name": "NH-48 Junction",
+        "distance": "6.5 km"
+      },
+      {
+        "name": "Surat Airport",
+        "distance": "22 km"
+      },
+      {
+        "name": "ONGC Township",
+        "distance": "9 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-logistics-park/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-logistics-park/1.jpg",
+      "/images/projects/krupa-logistics-park/2.jpg",
+      "/images/projects/krupa-logistics-park/3.jpg"
+    ]
+  },
+  {
+    "id": "krupa-industrial-estate",
+    "name": "Ma Krupa Industrial Estate",
+    "category": "industrial",
+    "status": "upcoming",
+    "featured": false,
+    "tagline": "SME industrial plots at Kim",
+    "description": "Developed industrial plots for small and medium manufacturers at Kim, with internal roads, drainage, power infrastructure and common effluent connectivity already laid before handover.",
+    "location": "Kim, Surat District",
+    "address": "GIDC Extension Belt, Kim, Gujarat 394110",
+    "reraNumber": "Application in process",
+    "launchDate": "2026-10-01",
+    "possession": "Mar 2028",
+    "progress": 15,
+    "priceFrom": 9800000,
+    "priceLabel": "Pre-launch Rs. 98 Lac",
+    "areaRange": "8,000 - 60,000 sq.ft.",
+    "configurations": [
+      "Industrial Plot",
+      "Built-to-Suit Shed"
+    ],
+    "totalUnits": 72,
+    "landArea": "26 Acres",
+    "storeys": 1,
+    "expectedRentPerSqftMonth": 19,
+    "appreciationRate": 12,
+    "highlights": [
+      "Internal 15m tar roads laid before possession",
+      "Common effluent line connectivity",
+      "Dedicated 11KV substation on site",
+      "Plot sizes from 8,000 sq.ft. upward"
+    ],
+    "amenities": [
+      "Internal Roads",
+      "Street Lighting",
+      "Storm Drainage",
+      "Substation",
+      "Boundary Wall",
+      "Security",
+      "Water Line",
+      "CETP Connectivity"
+    ],
+    "specifications": [
+      {
+        "label": "Roads",
+        "value": "15m and 12m tar internal network"
+      },
+      {
+        "label": "Power",
+        "value": "11KV dedicated substation"
+      },
+      {
+        "label": "Water",
+        "value": "Bore well plus municipal line provision"
+      },
+      {
+        "label": "Title",
+        "value": "NA converted, clear marketable title"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Kim Railway Station",
+        "distance": "3.8 km"
+      },
+      {
+        "name": "NH-48",
+        "distance": "2.1 km"
+      },
+      {
+        "name": "Hazira Port",
+        "distance": "38 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-industrial-estate/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-industrial-estate/1.jpg",
+      "/images/projects/krupa-industrial-estate/2.jpg"
+    ]
+  },
+  {
+    "id": "krupa-textile-sheds",
+    "name": "Ma Krupa Textile Sheds",
+    "category": "industrial",
+    "status": "completed",
+    "featured": false,
+    "tagline": "Delivered weaving units at Pandesara",
+    "description": "Sixty-four purpose-built weaving sheds at Pandesara delivered in 2020, engineered for loom vibration loads and continuous three-shift operation.",
+    "location": "Pandesara, Surat",
+    "address": "GIDC Pandesara, Surat, Gujarat 394221",
+    "reraNumber": "PR/GJ/SURAT/SURAT CITY/SMC/RAA06188/120717",
+    "launchDate": "2017-07-12",
+    "possession": "Delivered Nov 2020",
+    "progress": 100,
+    "priceFrom": 7200000,
+    "priceLabel": "Sold Out",
+    "areaRange": "4,500 - 14,000 sq.ft.",
+    "configurations": [
+      "Weaving Shed",
+      "Processing Unit"
+    ],
+    "totalUnits": 64,
+    "landArea": "9.5 Acres",
+    "storeys": 1,
+    "expectedRentPerSqftMonth": 22,
+    "appreciationRate": 7.8,
+    "highlights": [
+      "Foundations engineered for loom vibration loads",
+      "Three-shift-ready power and ventilation",
+      "All 64 units occupied since 2021",
+      "Delivered four months ahead of schedule"
+    ],
+    "amenities": [
+      "Truck Parking",
+      "Fire Hydrant System",
+      "Water Storage",
+      "Security Cabin",
+      "Power Backup"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC columns with steel truss roof"
+      },
+      {
+        "label": "Flooring",
+        "value": "Reinforced industrial flooring, 4T per sqm"
+      },
+      {
+        "label": "Ventilation",
+        "value": "Turbo ventilators plus north-light glazing"
+      },
+      {
+        "label": "Power",
+        "value": "Individual metering, HT sanction"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Pandesara GIDC Core",
+        "distance": "0.8 km"
+      },
+      {
+        "name": "Udhna Station",
+        "distance": "6.2 km"
+      },
+      {
+        "name": "NH-48",
+        "distance": "4.4 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-textile-sheds/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-textile-sheds/1.jpg",
+      "/images/projects/krupa-textile-sheds/2.jpg"
+    ]
+  },
+  {
+    "id": "krupa-residency",
+    "name": "Ma Krupa Residency",
+    "category": "residential",
+    "status": "ongoing",
+    "featured": true,
+    "tagline": "3 and 4 BHK sky residences at Pal",
+    "description": "Two towers of generously planned 3 and 4 BHK homes at Pal, lifted on a podium so every apartment looks over landscape rather than parked cars.",
+    "location": "Pal, Surat",
+    "address": "Pal-Adajan Road, Pal, Surat, Gujarat 395009",
+    "reraNumber": "PR/GJ/SURAT/SURAT CITY/SMC/RAA10112/220923",
+    "launchDate": "2023-09-22",
+    "possession": "Mar 2027",
+    "progress": 48,
+    "priceFrom": 9200000,
+    "priceLabel": "Starting Rs. 92 Lac",
+    "areaRange": "1,485 - 2,340 sq.ft.",
+    "configurations": [
+      "3 BHK",
+      "3 BHK + Study",
+      "4 BHK"
+    ],
+    "totalUnits": 224,
+    "landArea": "4.6 Acres",
+    "storeys": 22,
+    "expectedRentPerSqftMonth": 24,
+    "appreciationRate": 10.2,
+    "highlights": [
+      "Podium-level landscape deck of 38,000 sq.ft.",
+      "Vastu-compliant layouts, no wasted passage area",
+      "Three-side open apartments with cross ventilation",
+      "Clubhouse of 12,000 sq.ft. with indoor games"
+    ],
+    "amenities": [
+      "Clubhouse",
+      "Swimming Pool",
+      "Gymnasium",
+      "Kids Play Area",
+      "Jogging Track",
+      "Yoga Deck",
+      "Indoor Games",
+      "Party Lawn",
+      "Senior Citizen Zone",
+      "EV Charging",
+      "24x7 Security",
+      "Rainwater Harvesting"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC shear-wall, seismic zone III compliant"
+      },
+      {
+        "label": "Flooring",
+        "value": "800x800 double-charged vitrified tiles"
+      },
+      {
+        "label": "Kitchen",
+        "value": "Granite platform, SS sink, designer dado"
+      },
+      {
+        "label": "Bathrooms",
+        "value": "Jaquar or equivalent CP fittings"
+      },
+      {
+        "label": "Doors",
+        "value": "Teak-finish main door, flush internal doors"
+      },
+      {
+        "label": "Windows",
+        "value": "Powder-coated aluminium sliding with mesh"
+      },
+      {
+        "label": "Electrical",
+        "value": "Concealed copper wiring, modular switches"
+      },
+      {
+        "label": "Lifts",
+        "value": "3 per tower including 1 stretcher lift"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Pal RTO Circle",
+        "distance": "1.2 km"
+      },
+      {
+        "name": "Adajan Shopping Belt",
+        "distance": "3.4 km"
+      },
+      {
+        "name": "Delhi Public School",
+        "distance": "2.0 km"
+      },
+      {
+        "name": "Surat Airport",
+        "distance": "16 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-residency/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-residency/1.jpg",
+      "/images/projects/krupa-residency/2.jpg",
+      "/images/projects/krupa-residency/3.jpg",
+      "/images/projects/krupa-residency/4.jpg"
+    ]
+  },
+  {
+    "id": "krupa-greens",
+    "name": "Ma Krupa Greens",
+    "category": "residential",
+    "status": "upcoming",
+    "featured": true,
+    "tagline": "2 and 3 BHK garden homes at Bhatar",
+    "description": "Low-rise garden homes at Bhatar for buyers who want green cover and a short commute rather than a tall tower. Pre-launch inventory open.",
+    "location": "Bhatar, Surat",
+    "address": "Bhatar Char Rasta, Surat, Gujarat 395017",
+    "reraNumber": "Application in process",
+    "launchDate": "2026-12-01",
+    "possession": "Sep 2029",
+    "progress": 5,
+    "priceFrom": 5400000,
+    "priceLabel": "Pre-launch Rs. 54 Lac",
+    "areaRange": "985 - 1,620 sq.ft.",
+    "configurations": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "totalUnits": 168,
+    "landArea": "3.2 Acres",
+    "storeys": 7,
+    "expectedRentPerSqftMonth": 21,
+    "appreciationRate": 11.5,
+    "highlights": [
+      "Low-rise G+7 blocks around a central garden",
+      "Pre-launch pricing locked for first 40 bookings",
+      "45% of plot area kept as open landscape",
+      "Walk-to-school and market catchment"
+    ],
+    "amenities": [
+      "Central Garden",
+      "Gymnasium",
+      "Kids Play Area",
+      "Community Hall",
+      "Jogging Track",
+      "Covered Parking",
+      "Solar Common Lighting",
+      "24x7 Security"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC framed, seismic zone III compliant"
+      },
+      {
+        "label": "Flooring",
+        "value": "600x600 vitrified tiles"
+      },
+      {
+        "label": "Kitchen",
+        "value": "Granite platform with SS sink"
+      },
+      {
+        "label": "Bathrooms",
+        "value": "Branded CP and sanitary fittings"
+      },
+      {
+        "label": "Lifts",
+        "value": "2 per block"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Bhatar Char Rasta",
+        "distance": "0.4 km"
+      },
+      {
+        "name": "Surat Railway Station",
+        "distance": "5.6 km"
+      },
+      {
+        "name": "New Civil Hospital",
+        "distance": "4.2 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-greens/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-greens/1.jpg",
+      "/images/projects/krupa-greens/2.jpg",
+      "/images/projects/krupa-greens/3.jpg"
+    ]
+  },
+  {
+    "id": "krupa-heights",
+    "name": "Ma Krupa Heights",
+    "category": "residential",
+    "status": "completed",
+    "featured": false,
+    "tagline": "Delivered 2 and 3 BHK towers at Katargam",
+    "description": "Three towers of 288 homes at Katargam, possession handed over in 2022 with the amenity deck completed before the first family moved in.",
+    "location": "Katargam, Surat",
+    "address": "Katargam Main Road, Surat, Gujarat 395004",
+    "reraNumber": "PR/GJ/SURAT/SURAT CITY/SMC/RAA08055/050419",
+    "launchDate": "2019-04-05",
+    "possession": "Delivered Aug 2022",
+    "progress": 100,
+    "priceFrom": 4600000,
+    "priceLabel": "Sold Out",
+    "areaRange": "890 - 1,410 sq.ft.",
+    "configurations": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "totalUnits": 288,
+    "landArea": "3.9 Acres",
+    "storeys": 13,
+    "expectedRentPerSqftMonth": 19,
+    "appreciationRate": 9,
+    "highlights": [
+      "Amenities completed before first possession",
+      "All 288 units registered within 14 months",
+      "Society handover completed with full corpus",
+      "Zero possession-delay compensation claims"
+    ],
+    "amenities": [
+      "Clubhouse",
+      "Swimming Pool",
+      "Gymnasium",
+      "Kids Play Area",
+      "Community Hall",
+      "Covered Parking",
+      "24x7 Security",
+      "Rainwater Harvesting"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC framed, seismic zone III compliant"
+      },
+      {
+        "label": "Flooring",
+        "value": "600x600 vitrified tiles"
+      },
+      {
+        "label": "Kitchen",
+        "value": "Granite platform, designer dado"
+      },
+      {
+        "label": "Lifts",
+        "value": "2 per tower"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Katargam Gam",
+        "distance": "1.1 km"
+      },
+      {
+        "name": "Surat Railway Station",
+        "distance": "4.9 km"
+      },
+      {
+        "name": "Diamond Units Belt",
+        "distance": "2.3 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-heights/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-heights/1.jpg",
+      "/images/projects/krupa-heights/2.jpg"
+    ]
+  },
+  {
+    "id": "krupa-farm-estate",
+    "name": "Ma Krupa Farm Estate",
+    "category": "farmhouse",
+    "status": "ongoing",
+    "featured": true,
+    "tagline": "Gated weekend farm plots at Kamrej",
+    "description": "Gated NA farm plots on the Kamrej belt with tar internal roads, boundary walls, drip irrigation lines and an optional turnkey villa package.",
+    "location": "Kamrej, Surat District",
+    "address": "Surat-Kamrej Highway, Kamrej, Gujarat 394185",
+    "reraNumber": "PR/GJ/SURAT/SURAT RURAL/GJRERA/RAA10440/181123",
+    "launchDate": "2023-11-18",
+    "possession": "Dec 2026",
+    "progress": 55,
+    "priceFrom": 3800000,
+    "priceLabel": "Starting Rs. 38 Lac",
+    "areaRange": "5,000 - 20,000 sq.ft.",
+    "configurations": [
+      "Farm Plot",
+      "Plot + Turnkey Villa"
+    ],
+    "totalUnits": 88,
+    "landArea": "32 Acres",
+    "storeys": 1,
+    "expectedRentPerSqftMonth": 8,
+    "appreciationRate": 13.5,
+    "highlights": [
+      "Clear NA converted title on every plot",
+      "Gated entry with round-the-clock security",
+      "Drip irrigation and water line to plot edge",
+      "Optional 1,200 sq.ft. turnkey villa package"
+    ],
+    "amenities": [
+      "Gated Entry",
+      "Internal Tar Roads",
+      "Drip Irrigation",
+      "Bore Well",
+      "Street Lighting",
+      "Security",
+      "Common Lawn",
+      "Fruit Plantation"
+    ],
+    "specifications": [
+      {
+        "label": "Title",
+        "value": "NA converted, clear marketable title"
+      },
+      {
+        "label": "Roads",
+        "value": "9m tar internal network"
+      },
+      {
+        "label": "Water",
+        "value": "Bore well with line to plot boundary"
+      },
+      {
+        "label": "Boundary",
+        "value": "Compound wall with individual plot markers"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Kamrej Char Rasta",
+        "distance": "4.5 km"
+      },
+      {
+        "name": "NH-48",
+        "distance": "3.0 km"
+      },
+      {
+        "name": "Surat City Centre",
+        "distance": "24 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-farm-estate/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-farm-estate/1.jpg",
+      "/images/projects/krupa-farm-estate/2.jpg",
+      "/images/projects/krupa-farm-estate/3.jpg"
+    ]
+  },
+  {
+    "id": "krupa-orchard-villas",
+    "name": "Ma Krupa Orchard Villas",
+    "category": "farmhouse",
+    "status": "upcoming",
+    "featured": false,
+    "tagline": "Turnkey weekend villas on the Navsari belt",
+    "description": "Forty turnkey weekend villas set in a mango orchard on the Navsari belt, sold ready-to-use with landscaping, plunge pool and furniture package options.",
+    "location": "Navsari Belt, Gujarat",
+    "address": "Off Surat-Navsari Highway, Navsari, Gujarat 396445",
+    "reraNumber": "Application in process",
+    "launchDate": "2027-01-15",
+    "possession": "Dec 2029",
+    "progress": 3,
+    "priceFrom": 8900000,
+    "priceLabel": "Pre-launch Rs. 89 Lac",
+    "areaRange": "8,000 - 16,000 sq.ft. plot",
+    "configurations": [
+      "3 BHK Villa",
+      "4 BHK Villa"
+    ],
+    "totalUnits": 40,
+    "landArea": "21 Acres",
+    "storeys": 2,
+    "expectedRentPerSqftMonth": 12,
+    "appreciationRate": 12.8,
+    "highlights": [
+      "Built inside an existing mango orchard",
+      "Turnkey handover including landscaping",
+      "Optional plunge pool and furniture package",
+      "Managed rental programme for owners"
+    ],
+    "amenities": [
+      "Private Lawn",
+      "Plunge Pool Option",
+      "Orchard Walkways",
+      "Gated Security",
+      "Solar Water Heating",
+      "Bore Well",
+      "Caretaker Service",
+      "Bonfire Deck"
+    ],
+    "specifications": [
+      {
+        "label": "Structure",
+        "value": "RCC framed with load-bearing stone accents"
+      },
+      {
+        "label": "Flooring",
+        "value": "Kota and wooden-finish tiles"
+      },
+      {
+        "label": "Roofing",
+        "value": "Sloped Mangalore tile over RCC"
+      },
+      {
+        "label": "Water",
+        "value": "Bore well with overhead storage"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Navsari Town",
+        "distance": "9 km"
+      },
+      {
+        "name": "NH-48",
+        "distance": "5.2 km"
+      },
+      {
+        "name": "Dandi Beach",
+        "distance": "18 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-orchard-villas/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-orchard-villas/1.jpg",
+      "/images/projects/krupa-orchard-villas/2.jpg"
+    ]
+  },
+  {
+    "id": "krupa-green-acres",
+    "name": "Ma Krupa Green Acres",
+    "category": "farmhouse",
+    "status": "completed",
+    "featured": false,
+    "tagline": "Delivered farm plots at Olpad",
+    "description": "Fifty-two gated farm plots at Olpad, fully developed and handed over in 2023. Every plot registered with clear title and internal infrastructure complete.",
+    "location": "Olpad, Surat District",
+    "address": "Olpad Road, Surat District, Gujarat 394540",
+    "reraNumber": "PR/GJ/SURAT/SURAT RURAL/GJRERA/RAA08890/070520",
+    "launchDate": "2020-05-07",
+    "possession": "Delivered Feb 2023",
+    "progress": 100,
+    "priceFrom": 2600000,
+    "priceLabel": "Sold Out",
+    "areaRange": "4,000 - 12,000 sq.ft.",
+    "configurations": [
+      "Farm Plot"
+    ],
+    "totalUnits": 52,
+    "landArea": "16 Acres",
+    "storeys": 1,
+    "expectedRentPerSqftMonth": 6,
+    "appreciationRate": 14,
+    "highlights": [
+      "All 52 plots registered and handed over",
+      "Internal roads and lighting fully commissioned",
+      "Average owner appreciation of 42% since 2023",
+      "Common lawn maintained by the owners association"
+    ],
+    "amenities": [
+      "Gated Entry",
+      "Internal Roads",
+      "Street Lighting",
+      "Bore Well",
+      "Common Lawn",
+      "Security"
+    ],
+    "specifications": [
+      {
+        "label": "Title",
+        "value": "NA converted, individually registered"
+      },
+      {
+        "label": "Roads",
+        "value": "7.5m tar internal network"
+      },
+      {
+        "label": "Water",
+        "value": "Common bore well with distribution line"
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Olpad Town",
+        "distance": "3.1 km"
+      },
+      {
+        "name": "Surat City",
+        "distance": "27 km"
+      },
+      {
+        "name": "Hazira Industrial Belt",
+        "distance": "19 km"
+      }
+    ],
+    "cover": "/images/projects/krupa-green-acres/cover.jpg",
+    "gallery": [
+      "/images/projects/krupa-green-acres/1.jpg",
+      "/images/projects/krupa-green-acres/2.jpg"
+    ]
+  }
+]

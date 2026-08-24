@@ -1,0 +1,66 @@
+[
+  {
+    "id": "commercial",
+    "name": "Commercial",
+    "shortName": "Commercial",
+    "icon": "Building2",
+    "tagline": "Showrooms, offices and retail high-streets",
+    "description": "Grade-A corporate parks, showroom high-streets and retail plazas designed for footfall, frontage and long-term rental yield.",
+    "highlights": [
+      "Double-height showrooms",
+      "Dedicated visitor parking",
+      "High-street frontage",
+      "DG backup and lifts"
+    ],
+    "image": "/images/categories/commercial.jpg",
+    "accent": "#A06C1F"
+  },
+  {
+    "id": "industrial",
+    "name": "Industrial",
+    "shortName": "Industrial",
+    "icon": "Factory",
+    "tagline": "Sheds, warehouses and logistics parks",
+    "description": "Pre-engineered industrial sheds, warehousing estates and logistics parks with heavy-vehicle movement and power infrastructure built in.",
+    "highlights": [
+      "PEB structures up to 12m clear height",
+      "40ft trailer turning radius",
+      "HT power sanction support",
+      "Fire NOC ready"
+    ],
+    "image": "/images/categories/industrial.jpg",
+    "accent": "#7E541B"
+  },
+  {
+    "id": "residential",
+    "name": "Residential",
+    "shortName": "Residential",
+    "icon": "Home",
+    "tagline": "Apartments, row houses and villas",
+    "description": "Vastu-planned 2, 3 and 4 BHK residences with amenity decks, landscaped podiums and specification sheets you can hold us to.",
+    "highlights": [
+      "Vastu-compliant layouts",
+      "Clubhouse and podium garden",
+      "Earthquake-resistant RCC frame",
+      "Branded fittings throughout"
+    ],
+    "image": "/images/categories/residential.jpg",
+    "accent": "#BE852B"
+  },
+  {
+    "id": "farmhouse",
+    "name": "Farmhouse",
+    "shortName": "Farmhouse",
+    "icon": "Trees",
+    "tagline": "Weekend estates and gated farm plots",
+    "description": "Gated farm plots and turnkey weekend villas on the Surat–Kamrej and Navsari belts, with clear title and developed internal infrastructure.",
+    "highlights": [
+      "Clear NA title plots",
+      "Gated boundary and security",
+      "Drip irrigation ready",
+      "Turnkey villa construction"
+    ],
+    "image": "/images/categories/farmhouse.jpg",
+    "accent": "#CF9B3E"
+  }
+]

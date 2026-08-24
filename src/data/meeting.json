@@ -1,0 +1,32 @@
+{
+  "title": "Book a Meeting",
+  "subtitle": "Sit with our team at the office, walk the site with an engineer, or take it over a video call. Whatever suits you.",
+  "modes": [
+    { "id": "site-visit", "name": "Site Visit", "icon": "MapPin", "duration": "45 - 60 min", "description": "Walk the project with the site engineer. Hard hat and safety gear provided." },
+    { "id": "office", "name": "Office Meeting", "icon": "Building2", "duration": "30 - 45 min", "description": "Meet at Ma Krupa House, Ring Road. Drawings, samples and cost sheets on the table." },
+    { "id": "video-call", "name": "Video Call", "icon": "Video", "duration": "20 - 30 min", "description": "A screen-shared walkthrough of plans and pricing. Ideal for outstation and NRI buyers." },
+    { "id": "callback", "name": "Phone Callback", "icon": "PhoneCall", "duration": "10 - 15 min", "description": "A quick call at a time you pick, to answer specific questions before you commit an hour." }
+  ],
+  "purposes": [
+    "Explore a specific project",
+    "Discuss investment options",
+    "Turnkey construction enquiry",
+    "Industrial or warehouse requirement",
+    "Home loan and payment plan",
+    "Existing customer support",
+    "Channel partner tie-up",
+    "Something else"
+  ],
+  "slots": [
+    "09:30 AM", "10:30 AM", "11:30 AM", "12:30 PM",
+    "02:30 PM", "03:30 PM", "04:30 PM", "05:30 PM", "06:30 PM"
+  ],
+  "closedDays": [0],
+  "maxAdvanceDays": 45,
+  "assurance": [
+    "Confirmation on WhatsApp within 2 working hours",
+    "No obligation and no registration fee",
+    "Site visits include pick-up from our office on request",
+    "Meetings available in English, Hindi and Gujarati"
+  ]
+}
