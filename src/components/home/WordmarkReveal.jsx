@@ -82,9 +82,9 @@ export function WordmarkReveal() {
           variants={{ hidden: {}, show: { transition: { staggerChildren: 0.15 } } }}
         >
           {words.map((word) => (
-            <div key={word} className="overflow-hidden">
+            <div key={word} className="overflow-hidden pb-[0.08em] -mb-[0.08em]">
               <motion.span
-                className="block bg-cover bg-center bg-clip-text font-display text-[19vw] font-semibold tracking-[-0.02em] text-transparent sm:text-[17vw] lg:text-[15vw]"
+                className="block bg-cover bg-center bg-clip-text font-display text-[19vw] font-semibold leading-[1.08] tracking-[-0.02em] text-transparent sm:text-[17vw] lg:text-[15vw]"
                 style={{
                   backgroundImage: `url(${image})`,
                   backgroundSize: reduce ? '120% auto' : bgSize,
