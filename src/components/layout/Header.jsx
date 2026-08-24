@@ -272,6 +272,7 @@ function IconButton({ href, to, label, children, solid, onClick }) {
 
 export function Header() {
   const { pathname } = useLocation();
+  const navigate = useNavigate();
   const reduce = useMotionPreference();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -414,7 +415,7 @@ export function Header() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-              className="overflow-hidden bg-ink-50 lg:hidden"
+              className="relative z-10 overflow-hidden bg-ink-50 lg:hidden"
             >
               <div className="container-x max-h-[calc(100vh-120px)] space-y-1 overflow-y-auto py-5">
                 {NAV.map((item, i) => (
@@ -427,6 +428,11 @@ export function Header() {
                     <NavLink
                       to={item.to}
                       end={item.to === '/'}
+                      onPointerDown={(event) => {
+                        event.preventDefault();
+                        setMobileOpen(false);
+                        navigate(item.to);
+                      }}
                       className={({ isActive }) =>
                         `block rounded-lg px-3 py-3 font-display text-lg transition-colors ${
                           isActive ? 'text-brand-600' : 'text-ink-800 hover:text-brand-600'
@@ -442,6 +448,11 @@ export function Header() {
                           <Link
                             key={sub.to}
                             to={sub.to}
+                            onPointerDown={(event) => {
+                              event.preventDefault();
+                              setMobileOpen(false);
+                              navigate(sub.to);
+                            }}
                             className="rounded-md px-1 py-1.5 text-[13px] text-ink-500 transition-colors hover:text-brand-600"
                           >
                             {sub.label}
