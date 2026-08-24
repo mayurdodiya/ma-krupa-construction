@@ -59,7 +59,7 @@
     @apply pointer-events-none absolute inset-0 -translate-x-full bg-gold-sheen opacity-0 transition-opacity;
   }
   .btn-primary:hover::after,
-  .btn-light:hover::after { @apply opacity-100; animation: shimmer 0.9s ease-out; }
+  .btn-light:hover::after { @apply opacity-100 animate-shimmer; }
 
   /* ---- Surfaces ------------------------------------------------------ */
   .card { @apply rounded-2xl border border-white/10 bg-ink-900/70 shadow-soft backdrop-blur-sm; }
