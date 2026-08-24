@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-h: 76px;
+    --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  * { -webkit-tap-highlight-color: transparent; }
+  html { scroll-behavior: smooth; }
+
+  /* The site is a single dark-luxury theme. Light "curtain" panels are opt-in
+     per section (.panel-light) rather than a global colour mode. */
+  body {
+    @apply bg-ink-950 text-ink-100 antialiased;
+    font-feature-settings: 'ss01', 'cv02';
+  }
+
+  ::selection { @apply bg-brand-500 text-ink-950; }
+  :focus-visible { @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-ink-950; }
+
+  h1, h2, h3 { @apply font-display; }
+
+  /* Hide the OS cursor only where the custom cursor is actually active
+     (pointer-capable, motion-allowed desktops). Everything else keeps it. */
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    html.has-cursor, html.has-cursor * { cursor: none !important; }
+  }
+
+  @media (min-width: 1024px) {
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { @apply bg-ink-950; }
+    ::-webkit-scrollbar-thumb { @apply rounded-full bg-ink-800; }
+    ::-webkit-scrollbar-thumb:hover { @apply bg-brand-600; }
+  }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-[1320px] px-5 sm:px-7 lg:px-10; }
+
+  /* ---- Buttons ------------------------------------------------------- */
+  .btn {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-7 py-3.5
+           text-[13px] font-semibold tracking-wide transition-all duration-300
+           disabled:pointer-events-none disabled:opacity-60;
+  }
+  .btn-primary { @apply btn bg-brand-500 text-ink-950 shadow-lift hover:bg-brand-400 hover:-translate-y-0.5 active:translate-y-0; }
+  .btn-dark    { @apply btn bg-ink-900 text-white ring-1 ring-white/10 hover:bg-ink-800 hover:-translate-y-0.5; }
+  .btn-outline { @apply btn border border-white/25 bg-transparent text-white hover:border-brand-400 hover:bg-brand-500/10 hover:text-brand-200; }
+  .btn-ghost   { @apply btn text-ink-200 hover:bg-white/5; }
+  .btn-light   { @apply btn bg-ink-50 text-ink-950 hover:bg-brand-100 hover:-translate-y-0.5; }
+
+  /* Sweeping gold sheen on primary CTAs. */
+  .btn-primary::after,
+  .btn-light::after {
+    content: '';
+    @apply pointer-events-none absolute inset-0 -translate-x-full bg-gold-sheen opacity-0 transition-opacity;
+  }
+  .btn-primary:hover::after,
+  .btn-light:hover::after { @apply opacity-100; animation: shimmer 0.9s ease-out; }
+
+  /* ---- Surfaces ------------------------------------------------------ */
+  .card { @apply rounded-2xl border border-white/10 bg-ink-900/70 shadow-soft backdrop-blur-sm; }
+  .card-lux {
+    @apply relative overflow-hidden rounded-[1.25rem] border border-white/10 bg-ink-900/60
+           shadow-soft transition-all duration-500 hover:border-brand-500/40 hover:shadow-glow;
+  }
+  .chip { @apply inline-flex items-center gap-1.5 rounded-md px-3 py-1 text-[11px] font-semibold uppercase tracking-wider; }
+
+  /* Light "curtain" panel — the ivory sections that break up the dark scroll. */
+  .panel-light { @apply bg-ink-50 text-ink-900; }
+  .panel-light .muted { @apply text-ink-600; }
+  .panel-light .h-section { @apply text-ink-900; }
+
+  /* Rounded top curtain used between sections (matches the reference site). */
+  .curtain-top { @apply rounded-t-[2rem] sm:rounded-t-[3rem] lg:rounded-t-[4rem]; }
+  .curtain-btm { @apply rounded-b-[2rem] sm:rounded-b-[3rem] lg:rounded-b-[4rem]; }
+
+  /* ---- Type ---------------------------------------------------------- */
+  .eyebrow {
+    @apply inline-flex items-center gap-2.5 text-[11px] font-bold uppercase tracking-[0.24em] text-brand-400;
+  }
+  .h-section {
+    @apply font-display text-[2rem] font-medium leading-[1.12] tracking-[-0.01em] text-white sm:text-[2.6rem] lg:text-[3.1rem];
+  }
+  .h-hero {
+    @apply font-display text-[2.6rem] font-medium leading-[1.02] tracking-[-0.02em] text-white
+           sm:text-6xl lg:text-7xl xl:text-[5.5rem];
+  }
+  .muted { @apply text-ink-300/80; }
+  .lead { @apply text-[15px] leading-[1.85] text-ink-200/75 sm:text-base; }
+
+  /* ---- Forms --------------------------------------------------------- */
+  .field {
+    @apply w-full rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3.5 text-sm text-white
+           outline-none transition-all placeholder:text-ink-400/70
+           focus:border-brand-500/70 focus:bg-white/[0.07] focus:ring-2 focus:ring-brand-500/15;
+  }
+  .field-label { @apply mb-2 block text-[11px] font-bold uppercase tracking-[0.16em] text-ink-300; }
+  .panel-light .field { @apply border-ink-200 bg-white text-ink-900 placeholder:text-ink-400; }
+  .panel-light .field-label { @apply text-ink-600; }
+
+  .link-underline {
+    @apply relative after:absolute after:inset-x-0 after:-bottom-1 after:h-px after:origin-left
+           after:scale-x-0 after:bg-brand-400 after:transition-transform after:duration-500
+           hover:after:scale-x-100;
+  }
+
+  .rule-gold { @apply h-px w-full bg-gold-line opacity-60; }
+
+  /* Small gold index number used beside section headings. */
+  .sec-index { @apply font-display text-xs tracking-[0.3em] text-brand-500/70; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+  .grid-fade { mask-image: linear-gradient(to bottom, black 55%, transparent 100%); }
+  .edge-fade { mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent); }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .gold-text { @apply bg-gradient-to-r from-brand-200 via-brand-400 to-brand-200 bg-clip-text text-transparent; }
+
+  /* 3D helpers used by the depth sections. */
+  .perspective { perspective: 1200px; }
+  .perspective-far { perspective: 2200px; }
+  .preserve-3d { transform-style: preserve-3d; }
+  .backface-hidden { backface-visibility: hidden; }
+
+  /* Image treatment: slight desaturation until hovered, so colour reads as focus. */
+  .img-lux { @apply transition-[transform,filter] duration-[900ms] ease-[var(--ease-lux)]; filter: saturate(0.85) contrast(1.05); }
+  .group:hover .img-lux { @apply scale-[1.06]; filter: saturate(1.05) contrast(1.02); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

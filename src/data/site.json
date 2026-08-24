@@ -1,0 +1,100 @@
+{
+  "name": "Ma Krupa Construction",
+  "shortName": "Ma Krupa",
+  "legalName": "Ma Krupa Construction Pvt. Ltd.",
+  "tagline": "Building Trust, Delivering Landmarks",
+  "slogan": "Commercial, industrial, residential and farmhouse developments crafted to last generations.",
+  "intro": "For over two decades Ma Krupa Construction has been shaping Gujarat's skyline with RERA-registered developments built on engineering discipline, transparent dealing and on-time possession.",
+  "foundedYear": 2004,
+  "logo": "/images/logo/ma-krupa-logo.png",
+  "logoMark": "/images/logo/ma-krupa-mark.png",
+  "phone": "+91 98250 44172",
+  "phoneRaw": "+919825044172",
+  "phoneAlt": "+91 261 249 8800",
+  "whatsapp": "919825044172",
+  "email": "sales@makrupaconstruction.com",
+  "emailCareers": "careers@makrupaconstruction.com",
+  "address": {
+    "line1": "Ma Krupa House, 4th Floor",
+    "line2": "Ring Road, Udhna Darwaja",
+    "city": "Surat",
+    "state": "Gujarat",
+    "pincode": "395002",
+    "country": "India",
+    "full": "Ma Krupa House, 4th Floor, Ring Road, Udhna Darwaja, Surat, Gujarat 395002"
+  },
+  "hours": "Mon – Sat, 9:30 AM – 7:00 PM",
+  "mapEmbed": "https://www.google.com/maps?q=Ring%20Road%2C%20Surat%2C%20Gujarat&output=embed",
+  "reraNumber": "PR/GJ/SURAT/SURAT CITY/Surat Municipal Corporation/RAA10829/010224",
+  "gstin": "24AAGCM4471K1ZP",
+  "cin": "U45200GJ2004PTC044178",
+  "social": {
+    "instagram": "https://instagram.com/",
+    "facebook": "https://facebook.com/",
+    "linkedin": "https://linkedin.com/",
+    "youtube": "https://youtube.com/"
+  },
+  "stats": [
+    {
+      "value": 21,
+      "suffix": "+",
+      "label": "Years of Building"
+    },
+    {
+      "value": 48,
+      "suffix": "+",
+      "label": "Projects Delivered"
+    },
+    {
+      "value": 32,
+      "suffix": " Lakh",
+      "label": "Sq.Ft. Developed"
+    },
+    {
+      "value": 3600,
+      "suffix": "+",
+      "label": "Happy Families"
+    }
+  ],
+  "usp": [
+    "100% RERA-registered developments",
+    "On-time possession, contractually assured",
+    "Zero hidden charges, transparent pricing",
+    "In-house design, execution and handover teams"
+  ],
+  "hero": {
+    "video": "/videos/showreel.mp4",
+    "poster": "/images/hero/showreel-poster.jpg",
+    "slides": [
+      "/images/hero/hero-1.jpg",
+      "/images/hero/hero-2.jpg",
+      "/images/hero/hero-3.jpg",
+      "/images/hero/hero-4.jpg",
+      "/images/hero/hero-5.jpg"
+    ],
+    "wordmark": "/images/hero/wordmark.jpg"
+  },
+  "reels": [
+    {
+      "id": "terrace",
+      "title": "Rooftop Amenity Deck",
+      "note": "A render walkthrough of the podium-level terrace and parking deck.",
+      "video": "/videos/reel-terrace.mp4",
+      "poster": "/images/videos/reel-terrace-poster.jpg"
+    },
+    {
+      "id": "skyline",
+      "title": "Surat, After Dark",
+      "note": "The city we build in — Ring Road at night, shot from above.",
+      "video": "/videos/reel-skyline.mp4",
+      "poster": "/images/videos/reel-skyline-poster.jpg"
+    },
+    {
+      "id": "brand",
+      "title": "Maa Krupa Developers",
+      "note": "Our registered brand mark.",
+      "video": "/videos/brand-bumper.mp4",
+      "poster": "/images/videos/brand-bumper-poster.jpg"
+    }
+  ]
+}

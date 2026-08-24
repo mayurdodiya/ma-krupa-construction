@@ -1,0 +1,149 @@
+{
+  "botName": "Krupa Assistant",
+  "botRole": "Virtual Sales Desk",
+  "greeting": "Namaste! I am the Ma Krupa assistant. Ask me about our projects, pricing, RERA status, EMI or booking a site visit.",
+  "placeholder": "Ask about projects, EMI, RERA, site visit...",
+  "openerChips": ["Show ongoing projects", "What is the price range?", "Calculate my EMI", "Book a site visit", "Is it RERA approved?"],
+  "typingDelayMs": 620,
+  "fallback": {
+    "response": "I did not quite catch that. I can help with projects, pricing, EMI and ROI calculations, RERA registration, site visits and contact details. You can also call us directly and speak to a person.",
+    "chips": ["Show all projects", "Talk to a human", "Book a meeting", "Contact details"]
+  },
+  "intents": [
+    {
+      "id": "greeting",
+      "keywords": ["hi", "hello", "hey", "namaste", "good morning", "good evening", "kem cho"],
+      "response": "Hello and welcome to Ma Krupa Construction. We build commercial, industrial, residential and farmhouse projects across Surat and south Gujarat. What are you looking for today?",
+      "chips": ["Residential projects", "Commercial projects", "Industrial projects", "Farmhouse plots"]
+    },
+    {
+      "id": "ongoing-projects",
+      "keywords": ["ongoing", "running", "under construction", "current project", "live project"],
+      "response": "We have four projects under active construction right now: Ma Krupa Corporate Hub (62% complete), Ma Krupa Logistics Park (74%), Ma Krupa Residency (48%) and Ma Krupa Farm Estate (55%). Each project page shows live progress and the committed possession date.",
+      "chips": ["Open running projects", "Book a site visit"],
+      "action": { "label": "View running projects", "to": "/projects?status=ongoing" }
+    },
+    {
+      "id": "upcoming-projects",
+      "keywords": ["upcoming", "new launch", "pre launch", "prelaunch", "coming soon", "future project"],
+      "response": "Four projects are opening for pre-launch bookings: Ma Krupa High Street at Vesu, Ma Krupa Greens at Bhatar, Ma Krupa Industrial Estate at Kim and Ma Krupa Orchard Villas on the Navsari belt. Pre-launch pricing is usually 8 to 12 percent below the launch rate.",
+      "chips": ["Open upcoming projects", "Pre-launch pricing"],
+      "action": { "label": "View upcoming projects", "to": "/projects?status=upcoming" }
+    },
+    {
+      "id": "completed-projects",
+      "keywords": ["completed", "delivered", "past project", "finished", "handover", "track record"],
+      "response": "We have delivered 48 projects in 21 years. Four are featured on the site: Ma Krupa Trade Centre, Ma Krupa Heights, Ma Krupa Textile Sheds and Ma Krupa Green Acres. All were handed over on or ahead of the committed date.",
+      "chips": ["Open past projects", "Read testimonials"],
+      "action": { "label": "View past projects", "to": "/projects?status=completed" }
+    },
+    {
+      "id": "residential",
+      "keywords": ["residential", "flat", "apartment", "home", "house", "bhk", "villa"],
+      "response": "Our residential range covers 2, 3 and 4 BHK homes. Ma Krupa Residency at Pal starts at Rs. 92 Lac for 1,485 sq.ft., and Ma Krupa Greens at Bhatar opens in pre-launch from Rs. 54 Lac. Both are Vastu-planned with full amenity decks.",
+      "chips": ["Residency details", "Greens details", "Calculate EMI"],
+      "action": { "label": "Browse residential", "to": "/projects?category=residential" }
+    },
+    {
+      "id": "commercial",
+      "keywords": ["commercial", "office", "shop", "showroom", "retail", "trade"],
+      "response": "Commercial options are Ma Krupa Corporate Hub on Ring Road, starting at Rs. 85 Lac for showrooms and office suites, and Ma Krupa High Street at Vesu in pre-launch from Rs. 62 Lac. Commercial units in our delivered projects have run at 6 to 8 percent gross rental yield.",
+      "chips": ["Corporate Hub details", "Calculate ROI"],
+      "action": { "label": "Browse commercial", "to": "/projects?category=commercial" }
+    },
+    {
+      "id": "industrial",
+      "keywords": ["industrial", "warehouse", "shed", "godown", "factory", "logistics", "peb"],
+      "response": "Ma Krupa Logistics Park on the Hazira corridor offers PEB warehouse units from 6,000 to 42,000 sq.ft. with 12m clear height and dock levellers, starting at Rs. 1.55 Cr. Ma Krupa Industrial Estate at Kim offers developed plots from Rs. 98 Lac.",
+      "chips": ["Logistics Park details", "Built-to-suit enquiry"],
+      "action": { "label": "Browse industrial", "to": "/projects?category=industrial" }
+    },
+    {
+      "id": "farmhouse",
+      "keywords": ["farmhouse", "farm", "plot", "land", "weekend home", "orchard", "na plot"],
+      "response": "Ma Krupa Farm Estate at Kamrej offers gated NA farm plots from 5,000 sq.ft. starting at Rs. 38 Lac, with an optional turnkey villa package. Ma Krupa Orchard Villas on the Navsari belt offers turnkey weekend villas in a mango orchard from Rs. 89 Lac.",
+      "chips": ["Farm Estate details", "Is the title clear?"],
+      "action": { "label": "Browse farmhouse", "to": "/projects?category=farmhouse" }
+    },
+    {
+      "id": "pricing",
+      "keywords": ["price", "cost", "rate", "budget", "how much", "pricing", "per sqft", "expensive"],
+      "response": "Current entry points: farmhouse plots from Rs. 38 Lac, residential from Rs. 54 Lac, commercial from Rs. 62 Lac and industrial from Rs. 98 Lac. Everything is priced on RERA carpet area with no floor-rise or preferred-location charges added later.",
+      "chips": ["Send me a cost sheet", "Calculate EMI", "Book a meeting"]
+    },
+    {
+      "id": "emi",
+      "keywords": ["emi", "loan", "instalment", "installment", "monthly payment", "interest rate", "finance", "bank"],
+      "response": "Our EMI calculator gives you the monthly outgo, total interest and a full amortisation view in a few seconds. As a benchmark, Rs. 92 Lac at 20 percent down, 8.5 percent for 20 years works out to roughly Rs. 63,900 a month. All projects carry APF approval from SBI, HDFC, Bank of Baroda and LIC HFL.",
+      "chips": ["Open EMI calculator", "Which banks are approved?"],
+      "action": { "label": "Open EMI calculator", "to": "/calculators?tab=emi" }
+    },
+    {
+      "id": "roi",
+      "keywords": ["roi", "return", "investment", "yield", "rental", "appreciation", "profit"],
+      "response": "The ROI calculator projects rental income, capital appreciation and total return over your holding period, pre-filled with the realised rates from our delivered projects in that micro-market. Gross yields have run 6 to 8 percent for commercial, 7 to 9 percent for industrial and 3 to 4 percent for residential.",
+      "chips": ["Open ROI calculator", "Best investment option?"],
+      "action": { "label": "Open ROI calculator", "to": "/calculators?tab=roi" }
+    },
+    {
+      "id": "rera",
+      "keywords": ["rera", "registered", "approval", "legal", "title", "certificate", "escrow", "authority"],
+      "response": "Every Ma Krupa project is registered with Gujarat RERA before a single booking is taken. Our promoter registration is PROM/GJ/SURAT/RAA00412/2017, seventy percent of every collection sits in project escrow, and you can verify any of our numbers yourself at gujrera.gujarat.gov.in.",
+      "chips": ["See RERA certificates", "Buyer rights"],
+      "action": { "label": "Open RERA page", "to": "/rera" }
+    },
+    {
+      "id": "site-visit",
+      "keywords": ["site visit", "visit", "meeting", "appointment", "book", "schedule", "come to office", "see the project"],
+      "response": "Happy to arrange it. You can pick a site visit, an office meeting at Ma Krupa House, a video call or a phone callback, choose your date and slot, and you will get a WhatsApp confirmation within two working hours. No obligation and no registration fee.",
+      "chips": ["Book a meeting now", "Office address"],
+      "action": { "label": "Book a meeting", "to": "/book-meeting" }
+    },
+    {
+      "id": "possession",
+      "keywords": ["possession", "delivery", "when ready", "completion", "delay", "handover date", "timeline"],
+      "response": "Possession dates are written into the registered agreement, not left to a brochure. Corporate Hub is due Dec 2026, Logistics Park Sep 2026, Residency Mar 2027 and Farm Estate Dec 2026. Across 48 delivered projects our average handover has been 2.4 months ahead of the committed date.",
+      "chips": ["Show running projects", "What if it is delayed?"]
+    },
+    {
+      "id": "booking-process",
+      "keywords": ["booking process", "how to book", "how to buy", "documents", "agreement", "token", "procedure"],
+      "response": "Book with 10 percent of the agreement value, sign the allotment letter within 15 days and register the sale agreement. The balance follows a construction-linked plan tied to slab milestones, so you pay as the building rises. You will need PAN, Aadhaar, address proof and photographs.",
+      "chips": ["Payment plans", "Book a meeting", "Home loan help"]
+    },
+    {
+      "id": "amenities",
+      "keywords": ["amenities", "facility", "clubhouse", "pool", "gym", "parking", "security", "features"],
+      "response": "Amenities vary by project. Ma Krupa Residency has a 12,000 sq.ft. clubhouse, pool, gym, jogging track, yoga deck and a 38,000 sq.ft. podium garden. Industrial projects carry dock levellers, weighbridge, truck parking and fire hydrant systems. Each project page lists its full amenity set.",
+      "chips": ["Residency amenities", "Show all projects"]
+    },
+    {
+      "id": "services",
+      "keywords": ["service", "turnkey", "contractor", "build for me", "construction service", "pmc", "renovation", "material"],
+      "response": "Beyond our own developments we take on turnkey construction from Rs. 1,650 per sq.ft., PEB industrial sheds from Rs. 980 per sq.ft., RCC structure work, interior fit-out, land development, project management consultancy and renovation or retrofit work.",
+      "chips": ["See all services", "Get a quote"],
+      "action": { "label": "View services", "to": "/products" }
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "phone", "number", "email", "address", "office", "location", "where are you", "reach"],
+      "response": "Call us on +91 98250 44172, email sales@makrupaconstruction.com, or visit Ma Krupa House, 4th Floor, Ring Road, Udhna Darwaja, Surat 395002. We are open Monday to Saturday, 9:30 AM to 7:00 PM.",
+      "chips": ["Open contact page", "Book a meeting"],
+      "action": { "label": "Open contact page", "to": "/contact" }
+    },
+    {
+      "id": "company",
+      "keywords": ["about", "who are you", "company", "experience", "years", "founder", "history", "trust"],
+      "response": "Ma Krupa Construction was founded in Surat in 2004. In 21 years we have delivered 48 projects covering 32 lakh sq.ft. to more than 3,600 families and businesses, across commercial, industrial, residential and farmhouse verticals, with design and execution kept in house.",
+      "chips": ["Read our story", "See past projects"],
+      "action": { "label": "About us", "to": "/about" }
+    },
+    {
+      "id": "human",
+      "keywords": ["human", "agent", "talk to someone", "real person", "sales person", "call me", "executive"],
+      "response": "Of course. Call +91 98250 44172 during office hours and you will reach our sales desk directly, or message us on WhatsApp any time. You can also book a phone callback at a slot that suits you and we will call you.",
+      "chips": ["Book a callback", "Open contact page"],
+      "action": { "label": "Book a callback", "to": "/book-meeting" }
+    }
+  ]
+}

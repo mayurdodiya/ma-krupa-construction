@@ -1,0 +1,148 @@
+{
+  "story": [
+    "Ma Krupa Construction began in 2004 with a single 12,000 sq.ft. weaving shed in Pandesara and a promise the founder made to the client in person: the keys would be handed over on the date written on the contract, not the date that suited the builder.",
+    "Twenty-one years later that promise is still the operating rule. Forty-eight delivered projects across commercial, industrial, residential and farmhouse segments have averaged 2.4 months ahead of their committed possession date, and not one has attracted a delay compensation claim.",
+    "We remain deliberately mid-sized. Design, execution and handover sit under one roof in Surat, so the engineer who pours your slab is the one who answers for the snag list. It is a slower way to grow and a much harder promise to break."
+  ],
+  "mission": "To build spaces that outlast the people who commissioned them, and to make the buying of those spaces plain, documented and free of surprises.",
+  "vision": "To be the developer that Gujarat businesses and families recommend without being asked, because the building still performs a decade after handover.",
+  "values": [
+    {
+      "icon": "ShieldCheck",
+      "title": "Integrity in Writing",
+      "text": "If it is not in the agreement it is not a promise. Everything we commit verbally goes into the document you sign."
+    },
+    {
+      "icon": "CalendarCheck",
+      "title": "Time is the Product",
+      "text": "A delayed handover costs you rent, interest and patience. We plan backwards from the possession date and staff accordingly."
+    },
+    {
+      "icon": "HardHat",
+      "title": "Engineering First",
+      "text": "Structural decisions are made by engineers, not by the sales sheet. Where the two conflict, the engineer wins."
+    },
+    {
+      "icon": "Eye",
+      "title": "Open Sites",
+      "text": "Booked customers may visit any working day. A builder who cannot show you the site mid-construction is telling you something."
+    },
+    {
+      "icon": "Recycle",
+      "title": "Built to Last",
+      "text": "We specify for a thirty-year horizon: waterproofing, ventilation and services chosen for maintenance cost, not for the brochure."
+    },
+    {
+      "icon": "Users",
+      "title": "After the Keys",
+      "text": "Society formation, corpus handover and the five-year defect liability are part of the job, not a favour."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2004",
+      "title": "The First Shed",
+      "text": "Founded in Surat with a single 12,000 sq.ft. weaving shed contract at Pandesara."
+    },
+    {
+      "year": "2009",
+      "title": "Into Commercial",
+      "text": "First commercial trading centre delivered at Udhna, 84 units, fully sold before completion."
+    },
+    {
+      "year": "2013",
+      "title": "Residential Debut",
+      "text": "Entered residential development with a 96-home project at Katargam."
+    },
+    {
+      "year": "2017",
+      "title": "RERA From Day One",
+      "text": "Registered as a promoter with GujRERA in the first year of the Act and moved every live project onto escrow discipline."
+    },
+    {
+      "year": "2020",
+      "title": "Industrial at Scale",
+      "text": "Delivered 64 weaving sheds at Pandesara four months ahead of schedule, through the pandemic."
+    },
+    {
+      "year": "2023",
+      "title": "Farmhouse Vertical",
+      "text": "Launched the gated farm-plot vertical on the Kamrej belt with clear NA title on every plot."
+    },
+    {
+      "year": "2026",
+      "title": "32 Lakh Sq.Ft.",
+      "text": "Crossed 32 lakh sq.ft. developed across 48 projects, with four verticals running in parallel."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "icon": "Search",
+      "title": "Discovery",
+      "text": "We understand the requirement, budget and timeline, then show you only what genuinely fits. No blanket brochure dump."
+    },
+    {
+      "step": "02",
+      "icon": "PenTool",
+      "title": "Design and Costing",
+      "text": "Drawings, specification sheet and a line-by-line cost sheet on RERA carpet area, so you compare like with like."
+    },
+    {
+      "step": "03",
+      "icon": "FileSignature",
+      "title": "Agreement",
+      "text": "Registered agreement with the possession date, payment milestones and specification schedule written in."
+    },
+    {
+      "step": "04",
+      "icon": "HardHat",
+      "title": "Execution",
+      "text": "Construction against a published schedule, with monthly progress photos and cube-test reports available to you."
+    },
+    {
+      "step": "05",
+      "icon": "ClipboardCheck",
+      "title": "Quality and Snagging",
+      "text": "Third-party structural audit, documented snag list, and every item closed before we call you for handover."
+    },
+    {
+      "step": "06",
+      "icon": "KeyRound",
+      "title": "Handover and After",
+      "text": "Keys, documents, society formation and corpus, then five years of defect liability that we actually honour."
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Kiritbhai Patel",
+      "role": "Founder and Managing Director",
+      "bio": "Civil engineer by training, on site since 1998. Signs off every structural design personally.",
+      "avatar": "/images/team/leader-1.jpg"
+    },
+    {
+      "name": "Dhaval Patel",
+      "role": "Director, Projects",
+      "bio": "Leads execution across all four verticals. Owns the possession-date commitment.",
+      "avatar": "/images/team/leader-2.jpg"
+    },
+    {
+      "name": "Rina Mehta",
+      "role": "Head of Sales and Customer Care",
+      "bio": "Runs the cost-sheet transparency policy and the post-handover desk.",
+      "avatar": "/images/team/leader-3.jpg"
+    },
+    {
+      "name": "Sanjay Bhatt",
+      "role": "Chief Engineer, Quality",
+      "bio": "Twenty-six years in structural QA. Holds the authority to stop a pour.",
+      "avatar": "/images/team/leader-4.jpg"
+    }
+  ],
+  "images": {
+    "story": "/images/about/story.jpg",
+    "team": "/images/about/team.jpg",
+    "site": "/images/about/site.jpg",
+    "craft": "/images/about/craft.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headline": "RERA Registered. Every Project. Every Time.",
+  "intro": "The Real Estate (Regulation and Development) Act makes registration compulsory, but it does not make a builder transparent. We publish every registration number, escrow every rupee you pay, and invite you to verify us on the regulator portal before you trust us with a booking.",
+  "authority": "Gujarat Real Estate Regulatory Authority (GujRERA)",
+  "verifyUrl": "https://gujrera.gujarat.gov.in",
+  "promoterRegistration": "PROM/GJ/SURAT/RAA00412/2017",
+  "commitments": [
+    { "icon": "ShieldCheck", "title": "Registered Before Sale", "text": "No unit is offered, advertised or booked before the project carries a live GujRERA registration number." },
+    { "icon": "Landmark", "title": "70% Escrow Discipline", "text": "Seventy percent of every collection goes into the project-designated escrow account and is withdrawn only against certified construction progress." },
+    { "icon": "FileCheck2", "title": "Quarterly Filings", "text": "Progress, approvals and financials are filed with the authority every quarter and are publicly viewable against our registration number." },
+    { "icon": "CalendarClock", "title": "Committed Possession Date", "text": "The possession date in the registered agreement is the date we are legally bound to, with the statutory compensation clause intact." },
+    { "icon": "Ruler", "title": "Carpet Area Pricing", "text": "Every quote, cost sheet and agreement is priced on RERA carpet area. We do not price on super built-up and we do not revise area after booking." },
+    { "icon": "Scale", "title": "Five-Year Defect Liability", "text": "Structural and workmanship defects reported within five years of possession are rectified at our cost, as the Act requires." }
+  ],
+  "certificates": [
+    { "project": "Ma Krupa Corporate Hub", "projectId": "krupa-corporate-hub", "number": "PR/GJ/SURAT/SURAT CITY/SMC/RAA10829/010224", "validTill": "31 Dec 2027", "status": "Active" },
+    { "project": "Ma Krupa Logistics Park", "projectId": "krupa-logistics-park", "number": "PR/GJ/SURAT/SURAT RURAL/GJRERA/RAA09934/150723", "validTill": "30 Sep 2027", "status": "Active" },
+    { "project": "Ma Krupa Residency", "projectId": "krupa-residency", "number": "PR/GJ/SURAT/SURAT CITY/SMC/RAA10112/220923", "validTill": "31 Mar 2028", "status": "Active" },
+    { "project": "Ma Krupa Farm Estate", "projectId": "krupa-farm-estate", "number": "PR/GJ/SURAT/SURAT RURAL/GJRERA/RAA10440/181123", "validTill": "31 Dec 2027", "status": "Active" },
+    { "project": "Ma Krupa Trade Centre", "projectId": "krupa-trade-centre", "number": "PR/GJ/SURAT/SURAT CITY/SMC/RAA07211/280918", "validTill": "Completed", "status": "Closed" },
+    { "project": "Ma Krupa Heights", "projectId": "krupa-heights", "number": "PR/GJ/SURAT/SURAT CITY/SMC/RAA08055/050419", "validTill": "Completed", "status": "Closed" },
+    { "project": "Ma Krupa Textile Sheds", "projectId": "krupa-textile-sheds", "number": "PR/GJ/SURAT/SURAT CITY/SMC/RAA06188/120717", "validTill": "Completed", "status": "Closed" },
+    { "project": "Ma Krupa Green Acres", "projectId": "krupa-green-acres", "number": "PR/GJ/SURAT/SURAT RURAL/GJRERA/RAA08890/070520", "validTill": "Completed", "status": "Closed" }
+  ],
+  "buyerRights": [
+    "Ask for the RERA registration number before paying any booking amount.",
+    "Verify that number yourself on the GujRERA portal, not on the builder website.",
+    "Insist on carpet-area pricing in the cost sheet and the agreement.",
+    "Check that the possession date in the agreement matches the RERA filing.",
+    "Pay only into the project account named in the registered agreement.",
+    "Keep the quarterly progress filings in view. They are public and free."
+  ]
+}

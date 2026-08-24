@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Rakesh Patel",
+    "role": "Owner, Shreeji Textiles",
+    "project": "Ma Krupa Textile Sheds",
+    "rating": 5,
+    "text": "Handed over four months early, and the shed foundations have taken three years of loom vibration without a single crack. That tells you everything about how they build.",
+    "avatar": "/images/testimonials/avatar-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Nilesh Shah",
+    "role": "Director, Anmol Exports",
+    "project": "Ma Krupa Trade Centre",
+    "rating": 5,
+    "text": "We booked two units in 2019 on paper. Everything promised in the brochure was there at handover, down to the cargo lift capacity. No renegotiation, no surprise charges.",
+    "avatar": "/images/testimonials/avatar-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Meera Desai",
+    "role": "Homeowner",
+    "project": "Ma Krupa Heights",
+    "rating": 5,
+    "text": "The clubhouse and pool were finished before we moved in, which is unheard of. Four years on, the society still runs on the corpus they handed over properly.",
+    "avatar": "/images/testimonials/avatar-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jignesh Kacchadiya",
+    "role": "Managing Partner, JK Logistics",
+    "project": "Ma Krupa Logistics Park",
+    "rating": 5,
+    "text": "They actually understood trailer movement. The 18m internal road and dock leveller heights were right the first time, so we did not spend a rupee retrofitting.",
+    "avatar": "/images/testimonials/avatar-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hetal Vasani",
+    "role": "Homeowner",
+    "project": "Ma Krupa Residency",
+    "rating": 5,
+    "text": "Site visits are welcome any day, and the engineer walks you through the slab work himself. That kind of openness during construction is rare.",
+    "avatar": "/images/testimonials/avatar-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ashok Rathod",
+    "role": "Plot Owner",
+    "project": "Ma Krupa Green Acres",
+    "rating": 5,
+    "text": "Clear title, registered in my name within the promised window, and the internal roads were done before possession. The plot value has nearly doubled since.",
+    "avatar": "/images/testimonials/avatar-6.jpg"
+  }
+]

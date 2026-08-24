@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/logo/ma-krupa-mark.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0A0806" />
+    <title>Ma Krupa Construction — Building Trust, Delivering Landmarks</title>
+    <meta name="description" content="Ma Krupa Construction, Surat — RERA-registered builders and developers of commercial, industrial, residential and farmhouse projects across Gujarat. Explore ongoing, upcoming and completed projects." />
+    <meta name="keywords" content="Ma Krupa Construction, builders Surat, RERA registered, commercial projects, industrial sheds, residential apartments, farmhouse plots, Gujarat developers" />
+    <meta property="og:title" content="Ma Krupa Construction — Building Trust, Delivering Landmarks" />
+    <meta property="og:description" content="RERA-registered commercial, industrial, residential and farmhouse projects across Gujarat." />
+    <meta property="og:image" content="/images/logo/ma-krupa-logo.png" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      // Single dark-luxury theme. Locked in before first paint so the
+      // ivory 'curtain' panels never flash against a white document.
+      document.documentElement.classList.add('dark');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Netlify Forms detects forms at build time from static HTML. The React forms are
+         client-rendered, so these hidden twins register the forms + their fields.
+         Submissions land in the Netlify dashboard under "Forms". Do not remove. -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" /><input type="tel" name="phone" />
+      <input type="email" name="email" /><input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="book-meeting" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" /><input type="tel" name="phone" />
+      <input type="email" name="email" /><input type="text" name="project" />
+      <input type="text" name="mode" /><input type="date" name="date" />
+      <input type="text" name="slot" /><textarea name="notes"></textarea>
+    </form>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

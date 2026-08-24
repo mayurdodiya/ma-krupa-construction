@@ -1,0 +1,55 @@
+{
+  "emi": {
+    "title": "Home Loan EMI Calculator",
+    "subtitle": "Work out the monthly outgo before you fall in love with a floor plan.",
+    "defaults": { "propertyPrice": 9200000, "downPaymentPercent": 20, "interestRate": 8.5, "tenureYears": 20 },
+    "limits": {
+      "propertyPrice": { "min": 1000000, "max": 100000000, "step": 100000 },
+      "downPaymentPercent": { "min": 10, "max": 90, "step": 1 },
+      "interestRate": { "min": 6, "max": 16, "step": 0.05 },
+      "tenureYears": { "min": 1, "max": 30, "step": 1 }
+    },
+    "notes": [
+      "Indicative only. Your sanctioned rate depends on the lender, your credit profile and the loan-to-value ratio.",
+      "Stamp duty, registration and GST are payable over and above the property price and are not financed by most lenders.",
+      "All our projects carry APF approval, so the loan process starts from documentation rather than from project appraisal."
+    ],
+    "banks": [
+      { "name": "State Bank of India", "rate": 8.4 },
+      { "name": "HDFC Bank", "rate": 8.6 },
+      { "name": "Bank of Baroda", "rate": 8.45 },
+      { "name": "LIC Housing Finance", "rate": 8.65 },
+      { "name": "ICICI Bank", "rate": 8.75 },
+      { "name": "Axis Bank", "rate": 8.8 }
+    ]
+  },
+  "roi": {
+    "title": "Return on Investment Calculator",
+    "subtitle": "Rental yield, capital appreciation and total return over your holding period.",
+    "defaults": {
+      "investment": 9200000,
+      "areaSqft": 1485,
+      "rentPerSqftMonth": 24,
+      "appreciationRate": 10.2,
+      "holdingYears": 10,
+      "annualCostsPercent": 1.2,
+      "occupancyPercent": 92,
+      "rentEscalationPercent": 5
+    },
+    "limits": {
+      "investment": { "min": 1000000, "max": 250000000, "step": 100000 },
+      "areaSqft": { "min": 200, "max": 60000, "step": 10 },
+      "rentPerSqftMonth": { "min": 3, "max": 200, "step": 1 },
+      "appreciationRate": { "min": 0, "max": 25, "step": 0.1 },
+      "holdingYears": { "min": 1, "max": 30, "step": 1 },
+      "annualCostsPercent": { "min": 0, "max": 6, "step": 0.1 },
+      "occupancyPercent": { "min": 40, "max": 100, "step": 1 },
+      "rentEscalationPercent": { "min": 0, "max": 15, "step": 0.5 }
+    },
+    "notes": [
+      "Appreciation rates are drawn from realised price movement in our delivered projects in the same micro-market. Past movement does not guarantee future movement.",
+      "Annual costs cover maintenance, property tax and insurance. Income tax on rent is not deducted here.",
+      "Occupancy below 100% accounts for vacancy between tenants, which is normal in commercial and industrial leasing."
+    ]
+  }
+}
