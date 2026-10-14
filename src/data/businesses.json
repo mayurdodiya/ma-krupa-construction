@@ -1,0 +1,161 @@
+[
+  {
+    "id": "import-export",
+    "name": "Import Export",
+    "tagline": "Global Trade Solutions",
+    "description": "Maa Krupa Trading connects international markets with quality products. We specialise in importing and exporting construction materials, industrial equipment and consumer goods across global supply chains — with quality checks and paperwork handled at every border.",
+    "icon": "Globe",
+    "cover": "/images/businesses/import-export/cover.jpg",
+    "products": [
+      {
+        "id": "ie-1",
+        "name": "Construction Steel",
+        "description": "High-grade TMT bars and structural steel sourced from certified international mills.",
+        "image": "/images/businesses/import-export/steel.jpg",
+        "category": "Raw Materials"
+      },
+      {
+        "id": "ie-2",
+        "name": "Industrial Machinery",
+        "description": "Heavy-duty manufacturing equipment from leading global brands, with spares support.",
+        "image": "/images/businesses/import-export/machinery.jpg",
+        "category": "Equipment"
+      },
+      {
+        "id": "ie-3",
+        "name": "Building Materials",
+        "description": "Premium quality cement, aggregates, panels and finishing materials in bulk.",
+        "image": "/images/businesses/import-export/materials.jpg",
+        "category": "Raw Materials"
+      },
+      {
+        "id": "ie-4",
+        "name": "Safety Equipment",
+        "description": "International-standard PPE and site safety gear for construction and industry.",
+        "image": "/images/businesses/import-export/safety.jpg",
+        "category": "Safety"
+      },
+      {
+        "id": "ie-5",
+        "name": "TMT Bars & Coils",
+        "description": "Fe 500 / Fe 550D reinforcement bars and wire rods, mill test certificates included.",
+        "image": "/images/businesses/import-export/tmt.jpg",
+        "category": "Raw Materials"
+      },
+      {
+        "id": "ie-6",
+        "name": "Tools & Hardware",
+        "description": "Power tools, fasteners and industrial hardware for workshops and sites.",
+        "image": "/images/businesses/import-export/tools.jpg",
+        "category": "Equipment"
+      },
+      {
+        "id": "ie-7",
+        "name": "Bulk & Break-Bulk Cargo",
+        "description": "Consolidated containers and break-bulk handling with end-to-end customs clearance.",
+        "image": "/images/businesses/import-export/logistics.jpg",
+        "category": "Logistics"
+      }
+    ]
+  },
+  {
+    "id": "tiles",
+    "name": "Tiles Business",
+    "tagline": "Premium Surface Solutions",
+    "description": "Maa Krupa Tiles offers an extensive collection of ceramic, porcelain and natural-stone tiles. From residential homes to large commercial projects, we deliver surfaces that combine durability with aesthetic excellence.",
+    "icon": "LayoutGrid",
+    "cover": "/videos/tiles/54c2bcbe4d5a50242d8a078aca9ee1df.jpg",
+    "products": [
+      {
+        "id": "tiles-1",
+        "name": "Porcelain Tiles",
+        "description": "High-performance porcelain tiles for floors and walls with superior scratch resistance.",
+        "image": "/videos/tiles/2a30be5d64ab04aea2674f2a6151b9a1.jpg",
+        "video": "/videos/tiles/2da87ae2495f0d68ede52212cea621f3.mp4",
+        "category": "Flooring"
+      },
+      {
+        "id": "tiles-2",
+        "name": "Ceramic Wall Tiles",
+        "description": "Designer ceramic tiles perfect for kitchens, bathrooms and accent walls.",
+        "image": "/videos/tiles/20d7c930f7ba669c4b55245c2dcc26c7.jpg",
+        "video": "/videos/tiles/3d56763d0a9faafd6f54d70a29ccf6ca.mp4",
+        "category": "Wall"
+      },
+      {
+        "id": "tiles-3",
+        "name": "Marble Finish",
+        "description": "Luxurious marble-look tiles with the durability of modern manufacturing.",
+        "image": "/videos/tiles/25c5eb03f546415fecd35eb457d75036.jpg",
+        "video": "/videos/tiles/4f920987be9525d24a5c01655b41dd50.mp4",
+        "category": "Premium"
+      },
+      {
+        "id": "tiles-4",
+        "name": "Outdoor Tiles",
+        "description": "Weather-resistant anti-skid tiles for terraces, balconies and driveways.",
+        "image": "/videos/tiles/6496b0d7514171727156a5451b9494d8.jpg",
+        "video": "/videos/tiles/7d0fd964fceca44db4407f1cbc7ebaee.mp4",
+        "category": "Outdoor"
+      },
+      {
+        "id": "tiles-5",
+        "name": "Wooden Planks",
+        "description": "Wood-effect tiles combining the warmth of timber with tile durability.",
+        "image": "/videos/tiles/5d5870e3ac229e67c8ef4f7c4b479224.jpg",
+        "video": "/videos/tiles/d5186c4b84533ed34658119d0785002d.mp4",
+        "category": "Flooring"
+      }
+    ]
+  },
+  {
+    "id": "detergent",
+    "name": "Detergent Business",
+    "tagline": "Clean Living Solutions",
+    "description": "Maa Krupa Clean produces industrial and household cleaning solutions — from heavy-duty degreasers and commercial cleaning agents to premium home-care products.",
+    "icon": "Droplets",
+    "cover": "/images/businesses/detergent/cover.jpg",
+    "products": [
+      {
+        "id": "det-1",
+        "name": "Industrial Degreaser",
+        "description": "Heavy-duty formula for machinery, engine parts and industrial equipment.",
+        "image": "/images/businesses/detergent/industrial.jpg",
+        "video": "/images/businesses/detergent/industrial.mp4",
+        "category": "Industrial"
+      },
+      {
+        "id": "det-2",
+        "name": "Floor Cleaner",
+        "description": "Multi-surface floor cleaning solution with long-lasting fragrance.",
+        "image": "/images/businesses/detergent/floor.jpg",
+        "video": "/images/businesses/detergent/floor.mp4",
+        "category": "Commercial"
+      },
+      {
+        "id": "det-3",
+        "name": "Dish Wash Liquid",
+        "description": "Concentrated formula that cuts through grease while being gentle on hands.",
+        "image": "/images/businesses/detergent/dishwash.jpg",
+        "video": "/images/businesses/detergent/dishwash.mp4",
+        "category": "Household"
+      },
+      {
+        "id": "det-4",
+        "name": "Laundry Detergent",
+        "description": "High-efficiency powder for commercial laundries and home use.",
+        "image": "/images/businesses/detergent/laundry.jpg",
+        "video": "/images/businesses/detergent/laundry.mp4",
+        "category": "Household"
+      },
+      {
+        "id": "det-5",
+        "name": "Glass Cleaner",
+        "description": "Streak-free formula for windows, mirrors and glass surfaces.",
+        "image": "/images/businesses/detergent/glass.jpg",
+        "video": "/images/businesses/detergent/glass.mp4",
+        "category": "Commercial"
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "turnkey-construction",
+    "name": "Turnkey Construction",
+    "category": "service",
+    "icon": "HardHat",
+    "shortDescription": "Single-contract delivery from drawing board to handover keys.",
+    "description": "One contract, one accountable team. We take the project from soil test and drawings through structure, finishing, statutory approvals and final handover, with a fixed timeline written into the agreement.",
+    "features": [
+      "Design and drawings",
+      "Statutory approvals",
+      "Structure and finishing",
+      "Fixed-timeline contract",
+      "Single point of accountability"
+    ],
+    "startingPrice": "Rs. 1,650 per sq.ft.",
+    "featured": true,
+    "image": "/images/products/turnkey-construction.jpg"
+  },
+  {
+    "id": "peb-industrial-sheds",
+    "name": "PEB Industrial Sheds",
+    "category": "product",
+    "icon": "Factory",
+    "shortDescription": "Pre-engineered steel buildings up to 12m clear height.",
+    "description": "Design, fabrication and erection of pre-engineered steel buildings for warehousing, weaving and processing units. IS 800 compliant, delivered with structural drawings and third-party test certificates.",
+    "features": [
+      "Clear spans up to 40m",
+      "12m eaves height",
+      "Insulated roofing",
+      "Crane-ready gantry option",
+      "IS 800 compliant design"
+    ],
+    "startingPrice": "Rs. 980 per sq.ft.",
+    "featured": true,
+    "image": "/images/products/peb-industrial-sheds.jpg"
+  },
+  {
+    "id": "rcc-structure",
+    "name": "RCC Structure Works",
+    "category": "service",
+    "icon": "Building",
+    "shortDescription": "Seismic-compliant RCC framed and shear-wall structures.",
+    "description": "Reinforced concrete structural work for towers, podiums and basements. Mix designs are lab-certified per pour and cube-tested at 7 and 28 days, with reports shared with the client.",
+    "features": [
+      "Seismic zone III design",
+      "Lab-certified mix designs",
+      "Cube testing at 7 and 28 days",
+      "Aluminium formwork option",
+      "Basement waterproofing"
+    ],
+    "startingPrice": "Rs. 2,100 per sq.ft.",
+    "featured": true,
+    "image": "/images/products/rcc-structure.jpg"
+  },
+  {
+    "id": "interior-fitout",
+    "name": "Interior Fit-Out",
+    "category": "service",
+    "icon": "Sofa",
+    "shortDescription": "Corporate and residential interiors delivered to spec.",
+    "description": "Complete fit-out of offices, showrooms and homes: false ceiling, partitions, modular furniture, lighting design and MEP coordination, executed by the same team that built the shell.",
+    "features": [
+      "False ceiling and partitions",
+      "Modular furniture",
+      "Lighting design",
+      "MEP coordination",
+      "Snag-free handover protocol"
+    ],
+    "startingPrice": "Rs. 1,250 per sq.ft.",
+    "featured": false,
+    "image": "/images/products/interior-fitout.jpg"
+  },
+  {
+    "id": "land-development",
+    "name": "Land Development",
+    "category": "service",
+    "icon": "Map",
+    "shortDescription": "Plotting, NA conversion and internal infrastructure.",
+    "description": "End-to-end land development: survey and layout, NA conversion support, internal tar roads, storm drainage, street lighting, boundary walls and water infrastructure, handed over ready to build on.",
+    "features": [
+      "Survey and layout planning",
+      "NA conversion support",
+      "Tar internal roads",
+      "Storm drainage network",
+      "Street lighting and boundary"
+    ],
+    "startingPrice": "On request",
+    "featured": true,
+    "image": "/images/products/land-development.jpg"
+  },
+  {
+    "id": "project-management",
+    "name": "Project Management Consultancy",
+    "category": "service",
+    "icon": "ClipboardList",
+    "shortDescription": "Run your own project with our site discipline.",
+    "description": "For owners who want to build directly, we supply the planning, procurement discipline, quality checks and billing controls, with weekly progress reporting and a live cost-to-complete view.",
+    "features": [
+      "Planning and scheduling",
+      "Vendor procurement",
+      "Quality audits",
+      "Bill certification",
+      "Weekly progress reporting"
+    ],
+    "startingPrice": "4% to 7% of project value",
+    "featured": false,
+    "image": "/images/products/project-management.jpg"
+  },
+  {
+    "id": "renovation-retrofit",
+    "name": "Renovation and Retrofit",
+    "category": "service",
+    "icon": "Wrench",
+    "shortDescription": "Structural strengthening and full building renovation.",
+    "description": "Structural audit, retrofitting and renovation for ageing buildings: column jacketing, carbon-fibre wrapping, waterproofing overhaul, facade renewal and services replacement.",
+    "features": [
+      "Structural audit report",
+      "Column jacketing",
+      "Carbon-fibre wrapping",
+      "Waterproofing overhaul",
+      "Facade renewal"
+    ],
+    "startingPrice": "Rs. 720 per sq.ft.",
+    "featured": false,
+    "image": "/images/products/renovation-retrofit.jpg"
+  },
+  {
+    "id": "readymix-and-materials",
+    "name": "Ready-Mix and Materials",
+    "category": "product",
+    "icon": "Truck",
+    "shortDescription": "Batching-plant concrete and certified site materials.",
+    "description": "Ready-mix concrete from our own batching plant plus supply of certified steel, blocks and aggregates, delivered on schedule with batch slips and test certificates for every consignment.",
+    "features": [
+      "M20 to M50 grades",
+      "Own batching plant",
+      "Batch slip with every load",
+      "Certified TMT steel supply",
+      "AAC block and aggregate supply"
+    ],
+    "startingPrice": "Rs. 4,800 per cu.m.",
+    "featured": false,
+    "image": "/images/products/readymix-and-materials.jpg"
+  }
+]

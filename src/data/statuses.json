@@ -1,0 +1,5 @@
+[
+  { "id": "ongoing",   "name": "Running Projects",   "shortName": "Ongoing",   "description": "Under active construction with live progress updates.", "tone": "brand" },
+  { "id": "upcoming",  "name": "Upcoming Projects",  "shortName": "Upcoming",  "description": "Launching soon. Pre-launch pricing open for early bookings.", "tone": "sky" },
+  { "id": "completed", "name": "Past Projects",      "shortName": "Completed", "description": "Delivered, occupied and standing proof of our workmanship.", "tone": "emerald" }
+]

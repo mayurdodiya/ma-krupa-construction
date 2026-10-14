@@ -1,0 +1,1 @@
+const fs=require('fs');const path=require('path');function walk(d){let o=[];for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name); if(e.isDirectory()) o=o.concat(walk(p)); else o.push(p);} return o;} console.log(walk('src').length);
